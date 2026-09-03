@@ -124,7 +124,20 @@ export async function verifyCycle(dir) {
   const noncePath = join(dir, "nonce.txt");
   let nonce = null;
   if (!existsSync(noncePath)) {
-    bad("nonce.txt is missing — the cycle has been committed but not revealed");
+    // A cycle legitimately sits in this state while it runs: the commitment is
+    // published first and the nonce only at close. That ordering is the entire
+    // guarantee, so an in-flight cycle must not read as a failure. What MUST
+    // fail is results appearing without the reveal — published numbers whose
+    // prompts nothing can re-derive.
+    const hasResults =
+      existsSync(join(dir, "leaderboard.json")) || existsSync(join(dir, "tests.json"));
+    if (commit && !hasResults) {
+      console.log(
+        `  \x1b[33m-\x1b[0m committed, awaiting reveal — nothing to verify yet (commitment ${String(commit.nonce_sha256).slice(0, 16)}…)`,
+      );
+      return failures;
+    }
+    bad("results are published but nonce.txt is missing — the reveal never happened");
   } else if (commit) {
     nonce = readFileSync(noncePath, "utf8").trim();
     const actual = sha256(nonce);

@@ -57,10 +57,12 @@ async function main() {
   }
 
   const failed = [];
+  let awaiting = 0;
   for (const id of selected) {
     console.log(`\n\x1b[1m${label(id)}\x1b[0m  ·  data/cycles/${id}\n`);
     const failures = await verifyCycle(join(CYCLES, id));
     if (failures > 0) failed.push(id);
+    if (!existsSync(join(CYCLES, id, "leaderboard.json"))) awaiting++;
   }
 
   // Cross-cycle history is only meaningful over the full set, so it is checked
@@ -84,8 +86,15 @@ async function main() {
     console.log("");
     process.exit(1);
   }
+  const done = selected.length - awaiting;
+  if (done === 0) {
+    console.log(
+      `\x1b[32mOK.\x1b[0m ${awaiting} cycle${awaiting === 1 ? "" : "s"} committed and awaiting reveal — nothing published yet.\n`,
+    );
+    return;
+  }
   console.log(
-    `\x1b[32mVerified ${selected.length} cycle${selected.length === 1 ? "" : "s"}.\x1b[0m ` +
+    `\x1b[32mVerified ${done} cycle${done === 1 ? "" : "s"}${awaiting ? ` (${awaiting} more committed, awaiting reveal)` : ""}.\x1b[0m ` +
       `Prompts were fixed before each run, and every published number re-derives\nfrom the published data using that cycle's own scorer.\n`,
   );
 }
