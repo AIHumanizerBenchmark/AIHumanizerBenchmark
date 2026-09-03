@@ -1,0 +1,34 @@
+# This repository is public, and cycle bundles are copied in from a private
+# one. Everything below is a belt-and-braces guard against a stray file riding
+# along with a bundle — nothing in a legitimate bundle matches any of these
+# patterns.
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+*.p12
+credentials.json
+secrets.json
+
+# The runner's private working state. A cycle is published by copying the
+# finished bundle in; the runner's own out/ directory must never appear here,
+# and neither must a nonce for a cycle that has not closed yet.
+out/
+.nonce*
+corpus-*.json
+
+# Agent instructions and harness state. These describe how we work internally
+# and belong in the private repos, not on a public surface.
+CLAUDE.md
+AGENTS.md
+.claude/
+
+# Tooling noise
+node_modules/
+npm-debug.log*
+.DS_Store
+*.swp
+.idea/
+.vscode/

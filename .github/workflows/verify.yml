@@ -1,0 +1,29 @@
+name: verify
+
+# Runs the same verification any reader can run, on every push and pull
+# request. The badge on the README reflects this: if a published cycle ever
+# stopped verifying, it would go red in public rather than quietly.
+#
+# There is no install step because the verifier has no dependencies. That is
+# also what makes this workflow meaningful — nothing between the checkout and
+# the checks could substitute a friendlier verifier.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  # Monthly, so bit-rot or an accidental edit surfaces even in a quiet month.
+  schedule:
+    - cron: "0 6 1 * *"
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Verify every published cycle
+        run: npm run verify

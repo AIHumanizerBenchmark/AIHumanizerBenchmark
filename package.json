@@ -1,0 +1,21 @@
+{
+  "name": "aihumanizerbenchmark",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Published cycle data and independent verification for AI Humanizer Benchmark.",
+  "homepage": "https://aihumanizerbenchmark.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AIHumanizerBenchmark/AIHumanizerBenchmark.git"
+  },
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "verify": "node scripts/verify.js",
+    "build-history": "node scripts/build-history.js",
+    "build-readme": "node scripts/build-readme.js"
+  }
+}
