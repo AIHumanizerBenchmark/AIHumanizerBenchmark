@@ -1,0 +1,8 @@
+{
+  "cycle_id": "2026-09",
+  "nonce_sha256": "85c0c7f6ac2185cac02e4bde28fd0c3f08dd7b78cf64fa8a180cbcfc69b16ff9",
+  "nonce_bytes": 32,
+  "algorithm": "sha256(nonce_hex_string)",
+  "committed_at": "2026-09-03",
+  "note": "The nonce is revealed as nonce.txt when the cycle closes. Verify with: sha256(contents of nonce.txt, trimmed) === nonce_sha256"
+}
