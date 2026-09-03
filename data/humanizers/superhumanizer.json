@@ -1,0 +1,32 @@
+{
+  "slug": "superhumanizer",
+  "points": [
+    {
+      "cycle": "2026-09",
+      "rank": 8,
+      "composite": 68.5,
+      "bypassRate": 0.707,
+      "meaningPreservation": 0.773,
+      "readability": 0.7403,
+      "consistency": 0.7276,
+      "perDetector": {
+        "gptzero": 0.64,
+        "winston": 0.5227,
+        "originality": 0.5081,
+        "zerogpt": 0.7871,
+        "grammarly": 0.7682,
+        "quillbot": 0.7456,
+        "copyleaks": 0.5137
+      },
+      "perCategory": {
+        "academic_essay": 82.4,
+        "application_essay": 64.5,
+        "blog_post": 68.1,
+        "business_email": 57.1,
+        "marketing_copy": 77.6,
+        "discussion_board": 81.3,
+        "news_article": 85.5
+      }
+    }
+  ]
+}

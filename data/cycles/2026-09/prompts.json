@@ -1,0 +1,200 @@
+[
+  {
+    "sample_id": "s01",
+    "template_slug": "argumentative_essay",
+    "category": "academic_essay",
+    "prompt": "Write an argumentative essay arguing that the limits of facial recognition regulation. Try to aim for around 300 words."
+  },
+  {
+    "sample_id": "s02",
+    "template_slug": "lit_review",
+    "category": "academic_essay",
+    "prompt": "Write a literature review introduction on youth sports specialization and childhood burnout. Try to aim for around 300 words."
+  },
+  {
+    "sample_id": "s03",
+    "template_slug": "cover_letter",
+    "category": "application_essay",
+    "prompt": "Write a cover letter for a freelance podcast producer position. Try to aim for around 300 words."
+  },
+  {
+    "sample_id": "s04",
+    "template_slug": "personal_statement",
+    "category": "application_essay",
+    "prompt": "Write a personal statement explaining why I want to study urban planning. Try to aim for around 300 words."
+  },
+  {
+    "sample_id": "s05",
+    "template_slug": "howto_blog",
+    "category": "blog_post",
+    "prompt": "Write a guide on how to train for a century bike ride over sixteen weeks. Try to aim for around 300 words."
+  },
+  {
+    "sample_id": "s06",
+    "template_slug": "listicle_blog",
+    "category": "blog_post",
+    "prompt": "Write a blog post titled '10 Tips for succulents for sunny windowsills' in a casual tone. Try to aim for around 300 words."
+  },
+  {
+    "sample_id": "s07",
+    "template_slug": "business_email",
+    "category": "business_email",
+    "prompt": "Write a 250-word email to my team announcing adopting a no-internal-email rule after 6 pm."
+  },
+  {
+    "sample_id": "s08",
+    "template_slug": "landing_copy",
+    "category": "marketing_copy",
+    "prompt": "Write 300 words of landing page copy for a SaaS product that does starting a small balcony flower garden."
+  },
+  {
+    "sample_id": "s09",
+    "template_slug": "product_desc",
+    "category": "marketing_copy",
+    "prompt": "Write a 200-word product description for a double-walled ceramic travel mug."
+  },
+  {
+    "sample_id": "s10",
+    "template_slug": "discussion_post",
+    "category": "discussion_board",
+    "prompt": "Write a 250-word response to this prompt: Discuss whether autoplay features undermine intentional media habits.."
+  },
+  {
+    "sample_id": "s11",
+    "template_slug": "news_article",
+    "category": "news_article",
+    "prompt": "Write a news article about hybrid learning and the future of the university lecture. Try to aim for around 300 words."
+  },
+  {
+    "sample_id": "s12",
+    "template_slug": "argumentative_essay",
+    "category": "academic_essay",
+    "prompt": "Write an argumentative essay arguing that the rise of newsletter writers as trusted commentators. Try to aim for around 300 words."
+  },
+  {
+    "sample_id": "s13",
+    "template_slug": "lit_review",
+    "category": "academic_essay",
+    "prompt": "Write a literature review introduction on public transit funding in growing suburbs. Try to aim for around 300 words."
+  },
+  {
+    "sample_id": "s14",
+    "template_slug": "cover_letter",
+    "category": "application_essay",
+    "prompt": "Write a cover letter for a physical therapist at a sports clinic position. Try to aim for around 300 words."
+  },
+  {
+    "sample_id": "s15",
+    "template_slug": "personal_statement",
+    "category": "application_essay",
+    "prompt": "Write a personal statement explaining why I want to study environmental economics. Try to aim for around 300 words."
+  },
+  {
+    "sample_id": "s16",
+    "template_slug": "howto_blog",
+    "category": "blog_post",
+    "prompt": "Write a guide on how to start a neighborhood book club and keep it going. Try to aim for around 300 words."
+  },
+  {
+    "sample_id": "s17",
+    "template_slug": "listicle_blog",
+    "category": "blog_post",
+    "prompt": "Write a blog post titled '10 Tips for choosing a beginner-friendly telescope' in a casual tone. Try to aim for around 300 words."
+  },
+  {
+    "sample_id": "s18",
+    "template_slug": "business_email",
+    "category": "business_email",
+    "prompt": "Write a 250-word email to my team announcing moving the annual offsite from fall to early summer."
+  },
+  {
+    "sample_id": "s19",
+    "template_slug": "landing_copy",
+    "category": "marketing_copy",
+    "prompt": "Write 300 words of landing page copy for a SaaS product that does keeping a consistent savings habit."
+  },
+  {
+    "sample_id": "s20",
+    "template_slug": "product_desc",
+    "category": "marketing_copy",
+    "prompt": "Write a 200-word product description for a waxed-canvas tool roll for cyclists."
+  },
+  {
+    "sample_id": "s21",
+    "template_slug": "discussion_post",
+    "category": "discussion_board",
+    "prompt": "Write a 250-word response to this prompt: Discuss the ethics of AI-generated artwork in children's books.."
+  },
+  {
+    "sample_id": "s22",
+    "template_slug": "news_article",
+    "category": "news_article",
+    "prompt": "Write a news article about the repair-and-refurbish electronics movement. Try to aim for around 300 words."
+  },
+  {
+    "sample_id": "s23",
+    "template_slug": "argumentative_essay",
+    "category": "academic_essay",
+    "prompt": "Write an argumentative essay arguing that the trade-offs of rent stabilization programs. Try to aim for around 300 words."
+  },
+  {
+    "sample_id": "s24",
+    "template_slug": "lit_review",
+    "category": "academic_essay",
+    "prompt": "Write a literature review introduction on community-supported fisheries. Try to aim for around 300 words."
+  },
+  {
+    "sample_id": "s25",
+    "template_slug": "cover_letter",
+    "category": "application_essay",
+    "prompt": "Write a cover letter for a warehouse automation specialist position. Try to aim for around 300 words."
+  },
+  {
+    "sample_id": "s26",
+    "template_slug": "personal_statement",
+    "category": "application_essay",
+    "prompt": "Write a personal statement explaining why I want to study art history. Try to aim for around 300 words."
+  },
+  {
+    "sample_id": "s27",
+    "template_slug": "howto_blog",
+    "category": "blog_post",
+    "prompt": "Write a guide on how to ask for a promotion after a big project ships. Try to aim for around 300 words."
+  },
+  {
+    "sample_id": "s28",
+    "template_slug": "listicle_blog",
+    "category": "blog_post",
+    "prompt": "Write a blog post titled '10 Tips for improving home audio on a budget' in a casual tone. Try to aim for around 300 words."
+  },
+  {
+    "sample_id": "s29",
+    "template_slug": "business_email",
+    "category": "business_email",
+    "prompt": "Write a 250-word email to my team announcing shifting performance bonuses to a semi-annual schedule."
+  },
+  {
+    "sample_id": "s30",
+    "template_slug": "landing_copy",
+    "category": "marketing_copy",
+    "prompt": "Write 300 words of landing page copy for a SaaS product that does introducing a rescue cat to a new apartment."
+  },
+  {
+    "sample_id": "s31",
+    "template_slug": "product_desc",
+    "category": "marketing_copy",
+    "prompt": "Write a 200-word product description for a machined-brass pocket level."
+  },
+  {
+    "sample_id": "s32",
+    "template_slug": "discussion_post",
+    "category": "discussion_board",
+    "prompt": "Write a 250-word response to this prompt: Why has inbox overload become a modern workplace complaint?."
+  },
+  {
+    "sample_id": "s33",
+    "template_slug": "news_article",
+    "category": "news_article",
+    "prompt": "Write a news article about electric vehicle charging in older neighborhoods. Try to aim for around 300 words."
+  }
+]

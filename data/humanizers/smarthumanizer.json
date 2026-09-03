@@ -1,0 +1,32 @@
+{
+  "slug": "smarthumanizer",
+  "points": [
+    {
+      "cycle": "2026-09",
+      "rank": 2,
+      "composite": 84.8,
+      "bypassRate": 0.8528,
+      "meaningPreservation": 0.876,
+      "readability": 0.7573,
+      "consistency": 0.8826,
+      "perDetector": {
+        "gptzero": 0.71,
+        "winston": 0.51,
+        "originality": 0.7818,
+        "zerogpt": 0.8262,
+        "grammarly": 0.8691,
+        "quillbot": 0.9423,
+        "copyleaks": 0.1515
+      },
+      "perCategory": {
+        "academic_essay": 89.8,
+        "application_essay": 83.3,
+        "blog_post": 82.4,
+        "business_email": 75.6,
+        "marketing_copy": 89.2,
+        "discussion_board": 88.3,
+        "news_article": 79.3
+      }
+    }
+  ]
+}

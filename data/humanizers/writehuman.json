@@ -1,0 +1,32 @@
+{
+  "slug": "writehuman",
+  "points": [
+    {
+      "cycle": "2026-09",
+      "rank": 3,
+      "composite": 81.6,
+      "bypassRate": 0.9038,
+      "meaningPreservation": 0.7618,
+      "readability": 0.7236,
+      "consistency": 0.8642,
+      "perDetector": {
+        "gptzero": 0.5648,
+        "winston": 0.8212,
+        "originality": 0.5916,
+        "zerogpt": 0.9195,
+        "grammarly": 0.9418,
+        "quillbot": 0.9224,
+        "copyleaks": 0.6364
+      },
+      "perCategory": {
+        "academic_essay": 86.2,
+        "application_essay": 84.9,
+        "blog_post": 80.6,
+        "business_email": 69.5,
+        "marketing_copy": 86.2,
+        "discussion_board": 83.1,
+        "news_article": 79.6
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "undetectable-ai",
+  "points": [
+    {
+      "cycle": "2026-09",
+      "rank": 11,
+      "composite": 38.2,
+      "bypassRate": 0.0024,
+      "meaningPreservation": 0.8961,
+      "readability": 0.717,
+      "consistency": 0.996,
+      "perDetector": {
+        "gptzero": 0.0611,
+        "winston": 0.0015,
+        "originality": 0,
+        "zerogpt": 0.2648,
+        "grammarly": 0.1852,
+        "quillbot": 0.1657,
+        "copyleaks": 0
+      },
+      "perCategory": {
+        "academic_essay": 48,
+        "application_essay": 47.8,
+        "blog_post": 52.9,
+        "business_email": 50.9,
+        "marketing_copy": 50.9,
+        "discussion_board": 50.8,
+        "news_article": 51.6
+      }
+    }
+  ]
+}

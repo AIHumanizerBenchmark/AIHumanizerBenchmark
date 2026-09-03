@@ -1,0 +1,32 @@
+{
+  "slug": "stealthgpt",
+  "points": [
+    {
+      "cycle": "2026-09",
+      "rank": 7,
+      "composite": 71.9,
+      "bypassRate": 0.7463,
+      "meaningPreservation": 0.7012,
+      "readability": 0.8267,
+      "consistency": 0.7847,
+      "perDetector": {
+        "gptzero": 0.7823,
+        "winston": 0.6209,
+        "originality": 0.4818,
+        "zerogpt": 0.6648,
+        "grammarly": 0.7755,
+        "quillbot": 0.6598,
+        "copyleaks": 0.5758
+      },
+      "perCategory": {
+        "academic_essay": 80,
+        "application_essay": 66.5,
+        "blog_post": 76.6,
+        "business_email": 81.3,
+        "marketing_copy": 85,
+        "discussion_board": 57.2,
+        "news_article": 68.8
+      }
+    }
+  ]
+}

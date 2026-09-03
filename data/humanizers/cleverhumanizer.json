@@ -1,0 +1,32 @@
+{
+  "slug": "cleverhumanizer",
+  "points": [
+    {
+      "cycle": "2026-09",
+      "rank": 9,
+      "composite": 66.8,
+      "bypassRate": 0.865,
+      "meaningPreservation": 0.6534,
+      "readability": 0.7321,
+      "consistency": 0.8883,
+      "perDetector": {
+        "gptzero": 0.8999,
+        "winston": 0.7045,
+        "originality": 0.6701,
+        "zerogpt": 0.7791,
+        "grammarly": 0.9688,
+        "quillbot": 0.8882,
+        "copyleaks": 0.5317
+      },
+      "perCategory": {
+        "academic_essay": 81.4,
+        "application_essay": 71.7,
+        "blog_post": 81.5,
+        "business_email": 68.3,
+        "marketing_copy": 79.1,
+        "discussion_board": 77.6,
+        "news_article": 82.9
+      }
+    }
+  ]
+}

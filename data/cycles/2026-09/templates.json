@@ -1,0 +1,57 @@
+[
+  {
+    "slug": "argumentative_essay",
+    "category": "academic_essay",
+    "prompt_text": "Write an argumentative essay arguing that [TOPIC]. Try to aim for around 300 words."
+  },
+  {
+    "slug": "lit_review",
+    "category": "academic_essay",
+    "prompt_text": "Write a literature review introduction on [TOPIC]. Try to aim for around 300 words."
+  },
+  {
+    "slug": "cover_letter",
+    "category": "application_essay",
+    "prompt_text": "Write a cover letter for a [ROLE] position. Try to aim for around 300 words."
+  },
+  {
+    "slug": "personal_statement",
+    "category": "application_essay",
+    "prompt_text": "Write a personal statement explaining why I want to study [FIELD]. Try to aim for around 300 words."
+  },
+  {
+    "slug": "howto_blog",
+    "category": "blog_post",
+    "prompt_text": "Write a guide on how to [TASK]. Try to aim for around 300 words."
+  },
+  {
+    "slug": "listicle_blog",
+    "category": "blog_post",
+    "prompt_text": "Write a blog post titled '10 Tips for [THING]' in a casual tone. Try to aim for around 300 words."
+  },
+  {
+    "slug": "business_email",
+    "category": "business_email",
+    "prompt_text": "Write a 250-word email to my team announcing [POLICY]."
+  },
+  {
+    "slug": "landing_copy",
+    "category": "marketing_copy",
+    "prompt_text": "Write 300 words of landing page copy for a SaaS product that does [THING]."
+  },
+  {
+    "slug": "product_desc",
+    "category": "marketing_copy",
+    "prompt_text": "Write a 200-word product description for [ITEM]."
+  },
+  {
+    "slug": "discussion_post",
+    "category": "discussion_board",
+    "prompt_text": "Write a 250-word response to this prompt: [PROMPT]."
+  },
+  {
+    "slug": "news_article",
+    "category": "news_article",
+    "prompt_text": "Write a news article about [TOPIC]. Try to aim for around 300 words."
+  }
+]

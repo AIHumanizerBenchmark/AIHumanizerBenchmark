@@ -1,0 +1,32 @@
+{
+  "slug": "aihumanize",
+  "points": [
+    {
+      "cycle": "2026-09",
+      "rank": 5,
+      "composite": 76.1,
+      "bypassRate": 0.8263,
+      "meaningPreservation": 0.7077,
+      "readability": 0.747,
+      "consistency": 0.6793,
+      "perDetector": {
+        "gptzero": 0.5536,
+        "winston": 0.8103,
+        "originality": 0.2321,
+        "zerogpt": 0.8711,
+        "grammarly": 0.8839,
+        "quillbot": 0.8925,
+        "copyleaks": 0.6667
+      },
+      "perCategory": {
+        "academic_essay": 83.1,
+        "application_essay": 74.7,
+        "blog_post": 79.7,
+        "business_email": 41.5,
+        "marketing_copy": 82.7,
+        "discussion_board": 73,
+        "news_article": 82.2
+      }
+    }
+  ]
+}

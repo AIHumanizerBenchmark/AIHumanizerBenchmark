@@ -1,0 +1,32 @@
+{
+  "slug": "gptinf",
+  "points": [
+    {
+      "cycle": "2026-09",
+      "rank": 4,
+      "composite": 78.3,
+      "bypassRate": 0.7986,
+      "meaningPreservation": 0.757,
+      "readability": 0.767,
+      "consistency": 0.8222,
+      "perDetector": {
+        "gptzero": 0.698,
+        "winston": 0.6297,
+        "originality": 0.3378,
+        "zerogpt": 0.8517,
+        "grammarly": 0.8761,
+        "quillbot": 0.849,
+        "copyleaks": 0.5758
+      },
+      "perCategory": {
+        "academic_essay": 85.3,
+        "application_essay": 79.5,
+        "blog_post": 75,
+        "business_email": 61.8,
+        "marketing_copy": 81.7,
+        "discussion_board": 82.9,
+        "news_article": 73.2
+      }
+    }
+  ]
+}

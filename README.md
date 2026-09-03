@@ -14,7 +14,23 @@ the rankings without trusting us. The badge above is this repository verifying
 its own published data on every push.
 
 <!-- RANKINGS:START -->
-<!-- The rankings table is generated here once the first cycle is published. -->
+## AI humanizer rankings: September 2026
+
+| # | AI humanizer | Score / 100 | Bypass | Meaning | Readability | Consistency | Penalty |
+|--:|--------------|:-----------:|:------:|:-------:|:-----------:|:-----------:|:-------:|
+| 1 | [UndetectedGPT](https://aihumanizerbenchmark.com/humanizers/undetectedgpt) | 84.90 | 86% | 85% | 77% | 91% | 0 |
+| 2 | [SmartHumanizer](https://aihumanizerbenchmark.com/humanizers/smarthumanizer) | 84.80 | 85% | 88% | 76% | 88% | 0 |
+| 3 | [WriteHuman](https://aihumanizerbenchmark.com/humanizers/writehuman) | 81.60 | 90% | 76% | 72% | 86% | -1.0 |
+| 4 | [GPTinf](https://aihumanizerbenchmark.com/humanizers/gptinf) | 78.30 | 80% | 76% | 77% | 82% | 0 |
+| 5 | [AI Humanize](https://aihumanizerbenchmark.com/humanizers/aihumanize) | 76.10 | 83% | 71% | 75% | 68% | 0 |
+| 6 | [HIX Bypass](https://aihumanizerbenchmark.com/humanizers/hix-bypass) | 73.80 | 73% | 81% | 64% | 70% | 0 |
+| 7 | [StealthGPT](https://aihumanizerbenchmark.com/humanizers/stealthgpt) | 71.90 | 75% | 70% | 83% | 78% | -3.0 |
+| 8 | [SuperHumanizer](https://aihumanizerbenchmark.com/humanizers/superhumanizer) | 68.50 | 71% | 77% | 74% | 73% | -5.0 |
+| 9 | [Clever AI Humanizer](https://aihumanizerbenchmark.com/humanizers/cleverhumanizer) | 66.80 | 87% | 65% | 73% | 89% | -11.0 |
+| 10 | [ReHumanize](https://aihumanizerbenchmark.com/humanizers/rehumanize) | 39.00 | 4% | 59% | 81% | 95% | -4.0 |
+| 11 | [Undetectable AI](https://aihumanizerbenchmark.com/humanizers/undetectable-ai) | 38.20 | 0% | 90% | 72% | 100% | -12.0 |
+
+_Composite out of 100, weighting detector bypass 42%, meaning preservation 32%, readability 16%, and consistency across writing categories 10%; the four columns after the score are those sub-scores. Penalty is the total deducted for quality failures, already reflected in the score. Every tool ran automatically on its default settings over the same 33 texts, each scored by 7 AI detectors. Every number here is reproducible from the data in this repository — run `npm run verify`. Full per-detector breakdowns at [aihumanizerbenchmark.com/leaderboard](https://aihumanizerbenchmark.com/leaderboard)._
 <!-- RANKINGS:END -->
 
 ## How a cycle is produced

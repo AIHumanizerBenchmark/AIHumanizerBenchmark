@@ -1,0 +1,32 @@
+{
+  "slug": "hix-bypass",
+  "points": [
+    {
+      "cycle": "2026-09",
+      "rank": 6,
+      "composite": 73.8,
+      "bypassRate": 0.7317,
+      "meaningPreservation": 0.8082,
+      "readability": 0.6376,
+      "consistency": 0.6989,
+      "perDetector": {
+        "gptzero": 0.1573,
+        "winston": 0.6906,
+        "originality": 0.2462,
+        "zerogpt": 0.86,
+        "grammarly": 0.88,
+        "quillbot": 0.889,
+        "copyleaks": 0.5455
+      },
+      "perCategory": {
+        "academic_essay": 83.4,
+        "application_essay": 71,
+        "blog_post": 73.3,
+        "business_email": 40.2,
+        "marketing_copy": 80.4,
+        "discussion_board": 69.5,
+        "news_article": 85.7
+      }
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "undetectedgpt",
+  "points": [
+    {
+      "cycle": "2026-09",
+      "rank": 1,
+      "composite": 84.9,
+      "bypassRate": 0.8626,
+      "meaningPreservation": 0.8476,
+      "readability": 0.7733,
+      "consistency": 0.9146,
+      "perDetector": {
+        "gptzero": 0.8001,
+        "winston": 0.5445,
+        "originality": 0.7918,
+        "zerogpt": 0.8508,
+        "grammarly": 0.8933,
+        "quillbot": 0.9265,
+        "copyleaks": 0.2121
+      },
+      "perCategory": {
+        "academic_essay": 89.2,
+        "application_essay": 86.2,
+        "blog_post": 77.6,
+        "business_email": 79.7,
+        "marketing_copy": 85.8,
+        "discussion_board": 90.3,
+        "news_article": 85.9
+      }
+    }
+  ]
+}

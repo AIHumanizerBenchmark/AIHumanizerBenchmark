@@ -1,0 +1,156 @@
+{
+  "cycle_id": "2026-09",
+  "bundle_sha256": "554c7e37467002dd54f906a5e86555f5aea4bcaaa51db9fb6d305b0f64a9c820",
+  "files": [
+    {
+      "path": "banks.json",
+      "sha256": "541d98f75119030b7e78fc2ffcc8712ee8a069a712869a6645094d7706225668",
+      "bytes": 4193
+    },
+    {
+      "path": "commit.json",
+      "sha256": "f142feb342e936b7a851494ec6d6815375470ecbfbfb013bb74234727fbeafef",
+      "bytes": 350
+    },
+    {
+      "path": "data/aihumanize.jsonl",
+      "sha256": "ba6cc3c32f6caf9af7e1b3afe8061ca80fe87e96a57d25e885252833d9bd7a64",
+      "bytes": 138595
+    },
+    {
+      "path": "data/cleverhumanizer.jsonl",
+      "sha256": "6fc2ffbd8d7e9a774703af42f48be3e60d3179ba1dc2dede69078e41d5e179a0",
+      "bytes": 145526
+    },
+    {
+      "path": "data/copyleaks.jsonl",
+      "sha256": "f4131a154686409cff68d2f13ad51254fb9ee494e937845e23a349e97d2b7889",
+      "bytes": 774271
+    },
+    {
+      "path": "data/gptinf.jsonl",
+      "sha256": "2dae42958f3731f3fb0e45b04e444a12fe2f95b44d9388ca9921437547b824fb",
+      "bytes": 134586
+    },
+    {
+      "path": "data/gptzero.jsonl",
+      "sha256": "f216a2ea086e5071d55e94d3928183f972c8bdb843b07803e8bea59e3f5c05ed",
+      "bytes": 774897
+    },
+    {
+      "path": "data/grammarly.jsonl",
+      "sha256": "0156fba457fd705e970afe8376a64a11026793e3715d38330dde2be5514b2e34",
+      "bytes": 774732
+    },
+    {
+      "path": "data/hix-bypass.jsonl",
+      "sha256": "52934de8969d63a81ec96e13b32cf2ead4500e1e4196c2b0be37afa58168ebf9",
+      "bytes": 148981
+    },
+    {
+      "path": "data/originality.jsonl",
+      "sha256": "cec1921cd5590e50e0b46e3a465874b29cfa4c701a0278b8b6f2fe7d0def1aff",
+      "bytes": 775621
+    },
+    {
+      "path": "data/quillbot.jsonl",
+      "sha256": "4d5c7b4f0f9afb614d4abaed55835e7d77be386d35e18c4c463c4e87353c1cef",
+      "bytes": 775019
+    },
+    {
+      "path": "data/rehumanize.jsonl",
+      "sha256": "9715fd8c165dc26d88c3a20938a34d02d08cd06b087543822ef21f757af50246",
+      "bytes": 141973
+    },
+    {
+      "path": "data/smarthumanizer.jsonl",
+      "sha256": "47cea39ef1a035279501dd9a7ad620134dd11b3bef249c5320809c4c0dfc0de8",
+      "bytes": 143520
+    },
+    {
+      "path": "data/stealthgpt.jsonl",
+      "sha256": "a0340bfe0fe7c7cf5ae5586e3e078c4667c75e024bbbeb358c2d53c2a7495c1a",
+      "bytes": 139031
+    },
+    {
+      "path": "data/superhumanizer.jsonl",
+      "sha256": "ccf9e5fcd560023ea5a239e4396dc99e0c627052f0643d15c9b53e2fd4d52c1e",
+      "bytes": 152273
+    },
+    {
+      "path": "data/undetectable-ai.jsonl",
+      "sha256": "e6158af0fb8aa2a5bd9da133007dc51cab16fa18ff58bddacabd9ff9f181202e",
+      "bytes": 159539
+    },
+    {
+      "path": "data/undetectedgpt.jsonl",
+      "sha256": "0490fb7962f69db9946d1185eb30e8329b12c3730bc78a1923d10ae0573c6d80",
+      "bytes": 145590
+    },
+    {
+      "path": "data/winston.jsonl",
+      "sha256": "fe200b3f0911baf04df2bc885dd333cf10ee4bf066d83f9b5607351683efc765",
+      "bytes": 774589
+    },
+    {
+      "path": "data/writehuman.jsonl",
+      "sha256": "176077cdae7f206220192c49d29396bf4f668071b5bf1332750b17b3b3826963",
+      "bytes": 141591
+    },
+    {
+      "path": "data/zerogpt.jsonl",
+      "sha256": "c0a22cfc3d5998aa6bb58f8e4b5be4faa0190865cfe4d431f8d90619822e3172",
+      "bytes": 775320
+    },
+    {
+      "path": "detector-scores.json",
+      "sha256": "2211021185e81365a139349c017a4a14041b649fc734448208703090e600dbf2",
+      "bytes": 93990
+    },
+    {
+      "path": "leaderboard.json",
+      "sha256": "ca65ef4e948244f20230379121cff7b02beb91a696b1a60fdde27bde667beed6",
+      "bytes": 11508
+    },
+    {
+      "path": "nonce.txt",
+      "sha256": "3aa1bf48ca0fc28101909b4d7b6102abe51d9525f96192b78275ddb185c5ab6e",
+      "bytes": 65
+    },
+    {
+      "path": "prompts.json",
+      "sha256": "b96e6482766d0b6edc115befb32cb7b8b3f9c9ba60f9b77a3a39174e2d1734ff",
+      "bytes": 7541
+    },
+    {
+      "path": "results.jsonl",
+      "sha256": "bfc8786b2dc6e590c6c77151de69a27fba467bcecb9bd0b73a6fa755d3fe50f4",
+      "bytes": 1767264
+    },
+    {
+      "path": "samples.json",
+      "sha256": "7406d4adb23b1ea079dc4f3d7a9a78051845a09605b54d41e77d8fecab0d8fa4",
+      "bytes": 74517
+    },
+    {
+      "path": "scoring.js",
+      "sha256": "c0d65447cc6e6cd4d54dc5f53cd5fbc981598430a0d9e98e78105de8266d7067",
+      "bytes": 8496
+    },
+    {
+      "path": "select-placeholders.js",
+      "sha256": "72e566017586837d19d96a801a7d0bfc4e8fd09460d94868a0abc2422cf793f1",
+      "bytes": 3748
+    },
+    {
+      "path": "templates.json",
+      "sha256": "f57f79b798b8f184c99636834380a18c033068c682a58d423c0f175cc4ad8c63",
+      "bytes": 1833
+    },
+    {
+      "path": "tests.json",
+      "sha256": "7481ee0c8d316ebc5a144a70aeb6b27db057fdb32720a3c197ff9bcfb5d86c03",
+      "bytes": 1615165
+    }
+  ]
+}

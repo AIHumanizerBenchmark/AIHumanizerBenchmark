@@ -1,0 +1,32 @@
+{
+  "slug": "rehumanize",
+  "points": [
+    {
+      "cycle": "2026-09",
+      "rank": 10,
+      "composite": 39,
+      "bypassRate": 0.037,
+      "meaningPreservation": 0.5915,
+      "readability": 0.8142,
+      "consistency": 0.9513,
+      "perDetector": {
+        "gptzero": 0.0573,
+        "winston": 0,
+        "originality": 0.0006,
+        "zerogpt": 0.3256,
+        "grammarly": 0.6424,
+        "quillbot": 0.219,
+        "copyleaks": 0.0303
+      },
+      "perCategory": {
+        "academic_essay": 38.1,
+        "application_essay": 42,
+        "blog_post": 47.2,
+        "business_email": 47.1,
+        "marketing_copy": 44.6,
+        "discussion_board": 38.9,
+        "news_article": 43.4
+      }
+    }
+  ]
+}
