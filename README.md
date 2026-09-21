@@ -11,7 +11,9 @@ Every score at **[aihumanizerbenchmark.com](https://aihumanizerbenchmark.com)** 
 this repository. It holds the raw data behind each monthly cycle, plus the exact
 scoring code that produced the published leaderboard, so anyone can recompute
 the rankings without trusting us. The badge above is this repository verifying
-its own published data on every push.
+its own published data on every push. The same data ships as a
+`load_dataset`-ready [Hugging Face dataset](https://huggingface.co/datasets/ai-humanizer-benchmark/ai-humanizer-benchmark)
+under the [ai-humanizer-benchmark](https://huggingface.co/ai-humanizer-benchmark) organization.
 
 <!-- RANKINGS:START -->
 ## AI humanizer rankings: September 2026
