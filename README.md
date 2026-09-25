@@ -1,6 +1,7 @@
 # AI Humanizer Benchmark: AI humanizer rankings and public audit record
 
 [![verify](https://github.com/AIHumanizerBenchmark/AIHumanizerBenchmark/actions/workflows/verify.yml/badge.svg)](https://github.com/AIHumanizerBenchmark/AIHumanizerBenchmark/actions/workflows/verify.yml)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22966275.svg)](https://doi.org/10.5281/zenodo.22966275)
 
 **AI humanizers, ranked by a monthly benchmark.** Every tool is run
 automatically on its default settings over an identical set of AI-written
