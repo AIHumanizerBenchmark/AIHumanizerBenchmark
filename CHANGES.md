@@ -24,4 +24,14 @@ never a quiet edit.
 
 ---
 
-<!-- No cycles published yet. The first entry lands here when cycle one closes. -->
+## September 2026
+
+The first published cycle. All three stamps start here:
+
+- `methodology_version` **1.0.0**
+- `scoring_version` **1.0.0**
+- `prompt_set_version` **1.0.0**
+
+Nothing moved, because there is no earlier cycle to move from. This cycle is
+the baseline later ones are compared against; when a stamp changes, the entry
+above this one will say which, and what it means for comparability.

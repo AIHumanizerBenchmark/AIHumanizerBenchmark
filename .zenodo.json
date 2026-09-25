@@ -1,0 +1,43 @@
+{
+  "upload_type": "dataset",
+  "title": "AI Humanizer Benchmark: monthly cycle data",
+  "language": "eng",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "creators": [
+    {
+      "name": "AI Humanizer Benchmark"
+    }
+  ],
+  "description": "<p>The complete published data of the AI Humanizer Benchmark, a monthly measured benchmark of AI humanizers: tools that rewrite AI-generated text so that it reads as human. Each release archives one published cycle alongside every cycle published before it.</p><p><strong>Method.</strong> Within a cycle, every humanizer is run automatically on its default settings over an identical set of freshly generated AI-written texts spanning a fixed set of writing categories. Every output is then submitted to a panel of commercial AI detectors. Per test, the bypass score is the median verdict across the panel, so no single lenient detector can carry a tool. Each output is also scored for meaning preservation, measured as embedding similarity to the input, and for readability. The published composite weights detector bypass 42 percent, meaning preservation 32 percent, readability 16 percent and consistency across writing categories 10 percent, less penalties for quality failures including severe meaning drift, length inflation or deflation, refusals, and output returned unchanged. A tool that fails to return output on at least half its attempts is marked unavailable and excluded rather than scored.</p><p><strong>Prompt commitment.</strong> Each cycle's prompt set is fixed by a commit-reveal scheme. A random 32-byte nonce is generated before the cycle runs and only its SHA-256 is published; the nonce seeds which values fill the prompt templates. The nonce itself is published when the cycle closes, so the resolved prompts can be re-derived and checked against what was published. The ordering is the point: the commitment is public before any result exists, so the test set cannot be reselected after the fact.</p><p><strong>Contents.</strong> One directory per cycle containing the prompt templates and value banks, the resolved prompts, the source texts, every humanizer output, every per-detector verdict, the per-test meaning and readability values, the published leaderboard, the commit-reveal record, a SHA-256 manifest covering every file, and a frozen copy of the scoring code that produced that cycle's leaderboard. Each cycle carries the scorer that actually scored it, so an older cycle continues to verify under the rules it was scored under and later changes to scoring cannot retroactively validate it.</p><p><strong>Reproducibility.</strong> The rankings recompute from the published files alone. The verifier walks the full chain, from nonce to prompts to samples to tests to scores to leaderboard, and checks every file against the manifest. It calls no model and no detector, has no dependencies beyond the Node standard library, and requires no network access or credentials. Individual detector verdicts can also be spot-checked by submitting any published output to the detector directly. Published cycles are never edited; corrections are published as a new cycle.</p><p><strong>Licensing.</strong> Cycle data is released under CC BY 4.0. The verifier and the per-cycle scoring code are released under the MIT licence.</p><p><strong>Competing interests.</strong> The benchmark is operated by the team behind UndetectedGPT, which is one of the ranked tools. It is run through the identical pipeline as every other tool, and because every input, output and detector verdict is published, any special treatment would be detectable in the data itself. Further detail: https://aihumanizerbenchmark.com/why#conflicts</p>",
+  "keywords": [
+    "AI-generated text detection",
+    "text humanization",
+    "benchmark",
+    "reproducible research",
+    "natural language processing",
+    "commit-reveal"
+  ],
+  "communities": [
+    {
+      "identifier": "ai-humanizer-benchmark"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://aihumanizerbenchmark.com/methodology",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://huggingface.co/datasets/ai-humanizer-benchmark/ai-humanizer-benchmark",
+      "relation": "isIdenticalTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/AIHumanizerBenchmark/AIHumanizerBenchmark",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

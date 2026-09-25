@@ -27,3 +27,39 @@ jobs:
           node-version: "22"
       - name: Verify every published cycle
         run: npm run verify
+
+  # One release per published cycle, tagged with the cycle id. Gated on the
+  # job above, so a tag can never point at a tree that failed its own checks.
+  # Idempotent: pushes that add no new cycle leave the releases untouched.
+  release:
+    needs: verify
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Release the newest cycle, if it has none
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          tag="$(node scripts/release-notes.js --tag)"
+          api="https://api.github.com/repos/${GITHUB_REPOSITORY}"
+          code="$(curl -sS -o /dev/null -w '%{http_code}' \
+                    -H "Authorization: Bearer $TOKEN" \
+                    -H "Accept: application/vnd.github+json" \
+                    "$api/releases/tags/$tag")"
+          if [ "$code" = "200" ]; then
+            echo "Release $tag already exists; nothing to do."
+            exit 0
+          fi
+          node scripts/release-notes.js > release.json
+          curl -sS --fail-with-body -X POST \
+               -H "Authorization: Bearer $TOKEN" \
+               -H "Accept: application/vnd.github+json" \
+               "$api/releases" --data @release.json > /dev/null
+          echo "Created release $tag."
