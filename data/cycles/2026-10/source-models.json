@@ -1,0 +1,26 @@
+[
+  {
+    "provider": "anthropic",
+    "model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "provider": "anthropic",
+    "model": "claude-sonnet-5"
+  },
+  {
+    "provider": "openai",
+    "model": "gpt-5.6-luna"
+  },
+  {
+    "provider": "openai",
+    "model": "gpt-5.6-terra"
+  },
+  {
+    "provider": "google",
+    "model": "gemini-2.5-flash"
+  },
+  {
+    "provider": "google",
+    "model": "gemini-3.5-flash"
+  }
+]

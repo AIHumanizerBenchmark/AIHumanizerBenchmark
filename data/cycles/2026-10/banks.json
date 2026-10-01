@@ -1,0 +1,100 @@
+{
+  "TOPIC": [
+    "hybrid learning and the future of the university lecture",
+    "the effect of recommendation algorithms on consumer choice",
+    "public transit funding in growing suburbs",
+    "unlimited vacation policies as a retention strategy",
+    "the role of community libraries in the digital era",
+    "electric vehicle charging in older neighborhoods",
+    "youth sports specialization and childhood burnout",
+    "community-supported fisheries",
+    "the rise of newsletter writers as trusted commentators",
+    "the trade-offs of rent stabilization programs",
+    "the repair-and-refurbish electronics movement",
+    "the limits of facial recognition regulation"
+  ],
+  "FIELD": [
+    "cognitive linguistics",
+    "environmental economics",
+    "urban planning",
+    "materials science",
+    "art history",
+    "hydrology",
+    "biostatistics",
+    "architectural acoustics",
+    "social psychology",
+    "conservation ecology"
+  ],
+  "ROLE": [
+    "staff mobile app developer",
+    "junior UX researcher",
+    "high school chemistry teacher",
+    "district retail operations manager",
+    "physical therapist at a sports clinic",
+    "grants administrator at a county health department",
+    "freelance podcast producer",
+    "warehouse automation specialist",
+    "mid-career actuarial analyst",
+    "museum education coordinator"
+  ],
+  "PROMPT": [
+    "What role does mentorship play in remote apprenticeships?",
+    "Should cities prioritize bike lanes over street parking?",
+    "How has print-on-demand changed the economics of self-publishing?",
+    "Discuss whether autoplay features undermine intentional media habits.",
+    "How does extreme weather reshape how we think about homeownership?",
+    "Argue for or against making financial literacy a graduation requirement.",
+    "What does meaningful transparency look like for algorithmic hiring tools?",
+    "How do self-checkout systems change the relationship between stores and shoppers?",
+    "Why has inbox overload become a modern workplace complaint?",
+    "Discuss the ethics of AI-generated artwork in children's books."
+  ],
+  "THING": [
+    "standing desks for home offices",
+    "succulents for sunny windowsills",
+    "weekend batch-cooking strategies",
+    "starting a small balcony flower garden",
+    "improving home audio on a budget",
+    "keeping a consistent savings habit",
+    "training for your first sprint triathlon",
+    "building a focused evening wind-down routine",
+    "introducing a rescue cat to a new apartment",
+    "choosing a beginner-friendly telescope"
+  ],
+  "TASK": [
+    "build a home cold-brew coffee station on a budget",
+    "train for a century bike ride over sixteen weeks",
+    "learn conversational Italian in four months",
+    "start a neighborhood book club and keep it going",
+    "transition a toddler out of daytime naps",
+    "ask for a promotion after a big project ships",
+    "prepare for a system-design interview",
+    "host a backyard pizza night for twelve people",
+    "repaint a kitchen over a long weekend",
+    "record and release a three-episode podcast season"
+  ],
+  "ITEM": [
+    "merino-wool running gloves for winter",
+    "a double-walled ceramic travel mug",
+    "a waxed-canvas tool roll for cyclists",
+    "a refurbished mechanical wristwatch",
+    "a quarterly loose-leaf tea sampler subscription",
+    "an entry-level digital piano for apartments",
+    "a machined-brass pocket level",
+    "a windowsill mushroom-growing kit",
+    "a vegetable-tanned leather cable organizer",
+    "a slim aluminum card holder with a money clip"
+  ],
+  "POLICY": [
+    "introducing summer Fridays from June through August",
+    "adopting a no-internal-email rule after 6 pm",
+    "moving all-hands meetings to a monthly cadence",
+    "launching a commuter benefit for transit and bike costs",
+    "extending bereavement leave to include extended family",
+    "merging our two project trackers into a single tool",
+    "shifting performance bonuses to a semi-annual schedule",
+    "piloting a job-swap program between departments",
+    "introducing a quarterly volunteer day on company time",
+    "moving the annual offsite from fall to early summer"
+  ]
+}

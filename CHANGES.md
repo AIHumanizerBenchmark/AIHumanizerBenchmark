@@ -24,6 +24,30 @@ never a quiet edit.
 
 ---
 
+## October 2026
+
+- `methodology_version` **1.0.0 → 1.1.0**
+- `scoring_version` **1.0.0 → 1.0.1**
+- `prompt_set_version` **1.0.0** (unchanged)
+
+**Methodology 1.1.0 — scores are not comparable with September.**
+
+- Source texts are now written by six models from three providers instead of
+  one. The roster is published in `commit.json` before the run and as
+  `source-models.json` in the bundle. The cycle nonce decides which model
+  writes which prompt, and every sample and test row records it as
+  `source_model`.
+- The 33 prompts are drawn as before: same templates, same value banks, three
+  texts per template. Each provider writes 11 of them.
+- Every tool is recorded as `plan_tier_used: "default"`: each is run
+  through API calls on its default settings.
+
+Scores are not comparable with September: the source texts changed, and the
+detectors themselves change over time.
+
+**Scoring 1.0.1 — comparable.** The composite is published to two decimals
+instead of one. The formula is unchanged.
+
 ## September 2026
 
 The first published cycle. All three stamps start here:

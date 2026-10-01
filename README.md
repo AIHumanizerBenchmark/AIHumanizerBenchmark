@@ -17,21 +17,21 @@ its own published data on every push. The same data ships as a
 under the [AI Humanizer Benchmark organization](https://huggingface.co/ai-humanizer-benchmark).
 
 <!-- RANKINGS:START -->
-## AI humanizer rankings: September 2026
+## AI humanizer rankings: October 2026
 
 | # | AI humanizer | Score / 100 | Bypass | Meaning | Readability | Consistency | Penalty |
 |--:|--------------|:-----------:|:------:|:-------:|:-----------:|:-----------:|:-------:|
-| 1 | [UndetectedGPT](https://aihumanizerbenchmark.com/humanizers/undetectedgpt) | 84.90 | 86% | 85% | 77% | 91% | 0 |
-| 2 | [SmartHumanizer](https://aihumanizerbenchmark.com/humanizers/smarthumanizer) | 84.80 | 85% | 88% | 76% | 88% | 0 |
-| 3 | [WriteHuman](https://aihumanizerbenchmark.com/humanizers/writehuman) | 81.60 | 90% | 76% | 72% | 86% | -1.0 |
-| 4 | [GPTinf](https://aihumanizerbenchmark.com/humanizers/gptinf) | 78.30 | 80% | 76% | 77% | 82% | 0 |
-| 5 | [AI Humanize](https://aihumanizerbenchmark.com/humanizers/aihumanize) | 76.10 | 83% | 71% | 75% | 68% | 0 |
-| 6 | [HIX Bypass](https://aihumanizerbenchmark.com/humanizers/hix-bypass) | 73.80 | 73% | 81% | 64% | 70% | 0 |
-| 7 | [StealthGPT](https://aihumanizerbenchmark.com/humanizers/stealthgpt) | 71.90 | 75% | 70% | 83% | 78% | -3.0 |
-| 8 | [SuperHumanizer](https://aihumanizerbenchmark.com/humanizers/superhumanizer) | 68.50 | 71% | 77% | 74% | 73% | -5.0 |
-| 9 | [Clever AI Humanizer](https://aihumanizerbenchmark.com/humanizers/cleverhumanizer) | 66.80 | 87% | 65% | 73% | 89% | -11.0 |
-| 10 | [ReHumanize](https://aihumanizerbenchmark.com/humanizers/rehumanize) | 39.00 | 4% | 59% | 81% | 95% | -4.0 |
-| 11 | [Undetectable AI](https://aihumanizerbenchmark.com/humanizers/undetectable-ai) | 38.20 | 0% | 90% | 72% | 100% | -12.0 |
+| 1 | [UndetectedGPT](https://aihumanizerbenchmark.com/humanizers/undetectedgpt) | 88.12 | 96% | 77% | 84% | 97% | 0 |
+| 2 | [HIX Bypass](https://aihumanizerbenchmark.com/humanizers/hix-bypass) | 83.87 | 93% | 78% | 64% | 94% | 0 |
+| 3 | [GPTinf](https://aihumanizerbenchmark.com/humanizers/gptinf) | 80.74 | 89% | 68% | 78% | 92% | 0 |
+| 4 | [SmartHumanizer](https://aihumanizerbenchmark.com/humanizers/smarthumanizer) | 80.20 | 78% | 83% | 77% | 84% | 0 |
+| 5 | [AI Humanize](https://aihumanizerbenchmark.com/humanizers/aihumanize) | 78.33 | 90% | 66% | 72% | 89% | -1.0 |
+| 6 | [SuperHumanizer](https://aihumanizerbenchmark.com/humanizers/superhumanizer) | 78.23 | 84% | 75% | 71% | 86% | -1.0 |
+| 7 | [WriteHuman](https://aihumanizerbenchmark.com/humanizers/writehuman) | 75.06 | 98% | 53% | 71% | 96% | -4.0 |
+| 8 | [Clever AI Humanizer](https://aihumanizerbenchmark.com/humanizers/cleverhumanizer) | 68.06 | 86% | 66% | 77% | 77% | -9.0 |
+| 9 | [StealthGPT](https://aihumanizerbenchmark.com/humanizers/stealthgpt) | 64.52 | 63% | 68% | 81% | 76% | -4.0 |
+| 10 | [ReHumanize](https://aihumanizerbenchmark.com/humanizers/rehumanize) | 41.60 | 2% | 69% | 83% | 97% | -4.0 |
+| 11 | [Undetectable AI](https://aihumanizerbenchmark.com/humanizers/undetectable-ai) | 33.60 | 2% | 73% | 73% | 98% | -12.0 |
 
 _Composite out of 100, weighting detector bypass 42%, meaning preservation 32%, readability 16%, and consistency across writing categories 10%; the four columns after the score are those sub-scores. Penalty is the total deducted for quality failures, already reflected in the score. Every tool ran automatically on its default settings over the same 33 texts, each scored by 7 AI detectors. Every number here is reproducible from the data in this repository — run `npm run verify`. Full per-detector breakdowns at [aihumanizerbenchmark.com/leaderboard](https://aihumanizerbenchmark.com/leaderboard)._
 <!-- RANKINGS:END -->
@@ -39,12 +39,14 @@ _Composite out of 100, weighting detector bypass 42%, meaning preservation 32%, 
 ## How a cycle is produced
 
 1. **Commit.** A random 32-byte nonce is generated and only its SHA-256 is
-   published, as `commit.json`, before anything runs. The nonce itself stays
-   private until the cycle closes.
-2. **Select.** That nonce seeds which values fill the prompt templates, so the
-   prompt set is fixed before any tool sees it.
-3. **Write the corpus.** One AI-written text per prompt. Every humanizer gets
-   the identical set.
+   published, as `commit.json`, before anything runs, together with the list
+   of models that will write the source texts. The nonce itself stays private
+   until the cycle closes.
+2. **Select.** That nonce seeds which values fill the prompt templates and
+   which model writes each one, so the prompt set is fixed before any tool
+   sees it.
+3. **Write the corpus.** One AI-written text per prompt, from the model
+   assigned to it. Every humanizer gets the identical set.
 4. **Run.** Each tool is exercised automatically on its default settings.
 5. **Score.** Every output goes to all seven detectors, alongside meaning
    preservation and readability.
@@ -67,10 +69,11 @@ Node's standard library — a verification tool whose dependencies you have to
 trust doesn't verify much.
 
 ```
-September 2026  ·  data/cycles/2026-09
+October 2026  ·  data/cycles/2026-10
 
-  ✓ nonce matches the commitment published at cycle start (35c1ba911e66a88c…)
-  ✓ all 33 prompts re-derive from the nonce
+  ✓ nonce matches the commitment published at cycle start (8642a9e8a6f97363…)
+  ✓ source-model roster matches the one committed at cycle start (6 models)
+  ✓ all 33 prompts and their model assignments re-derive from the nonce
   ✓ every sample traces to a committed prompt, and every test to a published sample
   ✓ leaderboard recomputes for all 11 tools, every field and the ranking order (tolerance 0.0001)
   ✓ 0 tool(s) excluded for unavailability, none double-counted
@@ -78,19 +81,19 @@ September 2026  ·  data/cycles/2026-09
   ✓ all 363 test ids are unique
   ✓ every test scored by all 7 detectors
   ✓ results.jsonl and 18 per-tool files match the scored data
-  ✓ all 30 files match manifest.json, and its root hash recomputes (554c7e37467002dd…)
+  ✓ all 31 files match manifest.json, and its root hash recomputes (db79860f0cc29401…)
 
 History  ·  data/humanizers
 
-  ✓ 11 humanizer histories re-derive from 1 cycle(s)
+  ✓ 11 humanizer histories re-derive from 2 cycle(s)
 
 README  ·  rankings table
 
-  ✓ rankings table matches September 2026
+  ✓ rankings table matches October 2026
 
 Schema  ·  across cycles
 
-  ✓ no file or field dropped across 1 cycle(s)
+  ✓ no file or field dropped across 2 cycle(s)
 ```
 
 Verify a single cycle with `npm run verify -- "September 2026"` (or
@@ -143,11 +146,12 @@ retroactively validate old data.
 ## Layout
 
 ```
-data/cycles/2026-09/
-  commit.json              nonce hash, published at cycle start
+data/cycles/<cycle>/
+  commit.json              nonce hash and source-model roster, published at cycle start
   nonce.txt                the nonce, published at cycle close
   templates.json           prompt templates, frozen
   banks.json               placeholder value banks, frozen
+  source-models.json       the models that write the source texts (from 2026-10)
   prompts.json             the resolved prompts the nonce selected
   samples.json             the AI-written source texts fed to every humanizer
   tests.json               one row per test: input, output, meaning, readability

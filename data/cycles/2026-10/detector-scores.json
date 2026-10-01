@@ -1,0 +1,4721 @@
+[
+  {
+    "test_id": "rehumanize-s01",
+    "humanizer": "rehumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0,
+      "zerogpt": 0.199,
+      "grammarly": 0.24,
+      "quillbot": 0,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "rehumanize-s02",
+    "humanizer": "rehumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0008,
+      "zerogpt": 1,
+      "grammarly": 0.81,
+      "quillbot": 0,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "rehumanize-s03",
+    "humanizer": "rehumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0001,
+      "zerogpt": 0.213,
+      "grammarly": 0.27,
+      "quillbot": 0,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "rehumanize-s04",
+    "humanizer": "rehumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0002,
+      "zerogpt": 0.309,
+      "grammarly": 0,
+      "quillbot": 0,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "rehumanize-s05",
+    "humanizer": "rehumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0005,
+      "zerogpt": 0.234,
+      "grammarly": 0.15,
+      "quillbot": 0.0145,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "rehumanize-s06",
+    "humanizer": "rehumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0008,
+      "zerogpt": 0.578,
+      "grammarly": 0.53,
+      "quillbot": 0.602,
+      "copyleaks": 0.5547
+    }
+  },
+  {
+    "test_id": "rehumanize-s07",
+    "humanizer": "rehumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0,
+      "zerogpt": 0.297,
+      "grammarly": 0.4,
+      "quillbot": 0.5321,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "rehumanize-s08",
+    "humanizer": "rehumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0003,
+      "zerogpt": 0.541,
+      "grammarly": 0.65,
+      "quillbot": 1,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "rehumanize-s09",
+    "humanizer": "rehumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0,
+      "zerogpt": 0.082,
+      "grammarly": 0.56,
+      "quillbot": 0,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "rehumanize-s10",
+    "humanizer": "rehumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0,
+      "zerogpt": 0.398,
+      "grammarly": 0.24,
+      "quillbot": 0.1053,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "rehumanize-s11",
+    "humanizer": "rehumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0002,
+      "zerogpt": 0.77,
+      "grammarly": 0.65,
+      "quillbot": 0.1366,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "rehumanize-s12",
+    "humanizer": "rehumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0001,
+      "zerogpt": 0.321,
+      "grammarly": 0.68,
+      "quillbot": 0.0462,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "rehumanize-s13",
+    "humanizer": "rehumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0001,
+      "zerogpt": 0.812,
+      "grammarly": 0.89,
+      "quillbot": 0,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "rehumanize-s14",
+    "humanizer": "rehumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0,
+      "zerogpt": 0.081,
+      "grammarly": 0.56,
+      "quillbot": 0,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "rehumanize-s15",
+    "humanizer": "rehumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0,
+      "zerogpt": 0.026,
+      "grammarly": 0,
+      "quillbot": 0,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "rehumanize-s16",
+    "humanizer": "rehumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0004,
+      "zerogpt": 0.946,
+      "grammarly": 0.77,
+      "quillbot": 0.6736,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "rehumanize-s17",
+    "humanizer": "rehumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0001,
+      "zerogpt": 0.274,
+      "grammarly": 0.58,
+      "quillbot": 0.1102,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "rehumanize-s18",
+    "humanizer": "rehumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0001,
+      "zerogpt": 0.823,
+      "grammarly": 0.17,
+      "quillbot": 0.3556,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "rehumanize-s19",
+    "humanizer": "rehumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0,
+      "zerogpt": 0.887,
+      "grammarly": 0.48,
+      "quillbot": 0.2562,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "rehumanize-s20",
+    "humanizer": "rehumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0,
+      "zerogpt": 0,
+      "grammarly": 1,
+      "quillbot": 0.1715,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "rehumanize-s21",
+    "humanizer": "rehumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0001,
+      "zerogpt": 0.392,
+      "grammarly": 0.29,
+      "quillbot": 0.2131,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "rehumanize-s22",
+    "humanizer": "rehumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0001,
+      "zerogpt": 0.637,
+      "grammarly": 0.62,
+      "quillbot": 1,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "rehumanize-s23",
+    "humanizer": "rehumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.01,
+      "originality": 0.0032,
+      "zerogpt": 0.8,
+      "grammarly": 0.85,
+      "quillbot": 0.2176,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "rehumanize-s24",
+    "humanizer": "rehumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0,
+      "zerogpt": 0.082,
+      "grammarly": 0.35,
+      "quillbot": 0,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "rehumanize-s25",
+    "humanizer": "rehumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0001,
+      "zerogpt": 0.112,
+      "grammarly": 0,
+      "quillbot": 0,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "rehumanize-s26",
+    "humanizer": "rehumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0001,
+      "zerogpt": 0.842,
+      "grammarly": 0.45,
+      "quillbot": 0.1025,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "rehumanize-s27",
+    "humanizer": "rehumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0005,
+      "zerogpt": 0.415,
+      "grammarly": 0.84,
+      "quillbot": 0.2755,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "rehumanize-s28",
+    "humanizer": "rehumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0007,
+      "zerogpt": 0.385,
+      "grammarly": 0.15,
+      "quillbot": 0.6048,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "rehumanize-s29",
+    "humanizer": "rehumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0002,
+      "zerogpt": 1,
+      "grammarly": 0.35,
+      "quillbot": 0.4891,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "rehumanize-s30",
+    "humanizer": "rehumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0006,
+      "zerogpt": 0.266,
+      "grammarly": 0.14,
+      "quillbot": 0.2007,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "rehumanize-s31",
+    "humanizer": "rehumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0,
+      "zerogpt": 0.144,
+      "grammarly": 1,
+      "quillbot": 0.2941,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "rehumanize-s32",
+    "humanizer": "rehumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0008,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 0.7383,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "rehumanize-s33",
+    "humanizer": "rehumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0001,
+      "zerogpt": 1,
+      "grammarly": 0.9,
+      "quillbot": 0.4727,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "gptinf-s01",
+    "humanizer": "gptinf",
+    "scores": {
+      "gptzero": 0,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "gptinf-s02",
+    "humanizer": "gptinf",
+    "scores": {
+      "gptzero": 0.9461,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "gptinf-s03",
+    "humanizer": "gptinf",
+    "scores": {
+      "gptzero": 0.9215,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.676,
+      "grammarly": 1,
+      "quillbot": 0.6641,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "gptinf-s04",
+    "humanizer": "gptinf",
+    "scores": {
+      "gptzero": 0.9997,
+      "winston": 0.99,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 0.9312,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "gptinf-s05",
+    "humanizer": "gptinf",
+    "scores": {
+      "gptzero": 0.9312,
+      "winston": 1,
+      "originality": 0.9764,
+      "zerogpt": 1,
+      "grammarly": 0.72,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "gptinf-s06",
+    "humanizer": "gptinf",
+    "scores": {
+      "gptzero": 0.9996,
+      "winston": 0,
+      "originality": 0.9392,
+      "zerogpt": 0.667,
+      "grammarly": 0.76,
+      "quillbot": 0.9369,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "gptinf-s07",
+    "humanizer": "gptinf",
+    "scores": {
+      "gptzero": 0,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 0.78,
+      "quillbot": 0.9519,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "gptinf-s08",
+    "humanizer": "gptinf",
+    "scores": {
+      "gptzero": 0.9938,
+      "winston": 0.93,
+      "originality": 0.8624,
+      "zerogpt": 0.794,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "gptinf-s09",
+    "humanizer": "gptinf",
+    "scores": {
+      "gptzero": 0.6651,
+      "winston": 0.99,
+      "originality": 1,
+      "zerogpt": 0.522,
+      "grammarly": 1,
+      "quillbot": 0.3961,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "gptinf-s10",
+    "humanizer": "gptinf",
+    "scores": {
+      "gptzero": 0.6865,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "gptinf-s11",
+    "humanizer": "gptinf",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.02,
+      "originality": 0.6962,
+      "zerogpt": 0.891,
+      "grammarly": 1,
+      "quillbot": 0.8963,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "gptinf-s12",
+    "humanizer": "gptinf",
+    "scores": {
+      "gptzero": 0.8581,
+      "winston": 1,
+      "originality": 0.9998,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "gptinf-s13",
+    "humanizer": "gptinf",
+    "scores": {
+      "gptzero": 0.9984,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "gptinf-s14",
+    "humanizer": "gptinf",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.96,
+      "originality": 0.9853,
+      "zerogpt": 0.855,
+      "grammarly": 1,
+      "quillbot": 0.3512,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "gptinf-s15",
+    "humanizer": "gptinf",
+    "scores": {
+      "gptzero": 0.9721,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "gptinf-s16",
+    "humanizer": "gptinf",
+    "scores": {
+      "gptzero": 0.9989,
+      "winston": 1,
+      "originality": 0.9996,
+      "zerogpt": 0.785,
+      "grammarly": 0.79,
+      "quillbot": 0.7698,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "gptinf-s17",
+    "humanizer": "gptinf",
+    "scores": {
+      "gptzero": 0.9996,
+      "winston": 0.09,
+      "originality": 0.003,
+      "zerogpt": 0.388,
+      "grammarly": 0.85,
+      "quillbot": 1,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "gptinf-s18",
+    "humanizer": "gptinf",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.96,
+      "originality": 0.9999,
+      "zerogpt": 0.977,
+      "grammarly": 0.62,
+      "quillbot": 0.6947,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "gptinf-s19",
+    "humanizer": "gptinf",
+    "scores": {
+      "gptzero": 0.3662,
+      "winston": 0.96,
+      "originality": 0.109,
+      "zerogpt": 0.685,
+      "grammarly": 0.42,
+      "quillbot": 0.686,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "gptinf-s20",
+    "humanizer": "gptinf",
+    "scores": {
+      "gptzero": 0.9979,
+      "winston": 0.99,
+      "originality": 1,
+      "zerogpt": 0.878,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "gptinf-s21",
+    "humanizer": "gptinf",
+    "scores": {
+      "gptzero": 0,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.93,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "gptinf-s22",
+    "humanizer": "gptinf",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.98,
+      "originality": 0.9998,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "gptinf-s23",
+    "humanizer": "gptinf",
+    "scores": {
+      "gptzero": 0.9998,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "gptinf-s24",
+    "humanizer": "gptinf",
+    "scores": {
+      "gptzero": 0.9998,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.762,
+      "grammarly": 0.81,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "gptinf-s25",
+    "humanizer": "gptinf",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.98,
+      "originality": 0.9999,
+      "zerogpt": 0.335,
+      "grammarly": 0.54,
+      "quillbot": 0.3209,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "gptinf-s26",
+    "humanizer": "gptinf",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.84,
+      "originality": 0.9999,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 0.6555,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "gptinf-s27",
+    "humanizer": "gptinf",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.99,
+      "originality": 0.9993,
+      "zerogpt": 0.299,
+      "grammarly": 0.79,
+      "quillbot": 0.7279,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "gptinf-s28",
+    "humanizer": "gptinf",
+    "scores": {
+      "gptzero": 1,
+      "winston": 0.91,
+      "originality": 0.8415,
+      "zerogpt": 0.714,
+      "grammarly": 1,
+      "quillbot": 0.8829,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "gptinf-s29",
+    "humanizer": "gptinf",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.89,
+      "originality": 0.9999,
+      "zerogpt": 1,
+      "grammarly": 0.5,
+      "quillbot": 0.8214,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "gptinf-s30",
+    "humanizer": "gptinf",
+    "scores": {
+      "gptzero": 0,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.858,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "gptinf-s31",
+    "humanizer": "gptinf",
+    "scores": {
+      "gptzero": 0.9994,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 0.8333,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "gptinf-s32",
+    "humanizer": "gptinf",
+    "scores": {
+      "gptzero": 0.4864,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "gptinf-s33",
+    "humanizer": "gptinf",
+    "scores": {
+      "gptzero": 0.3675,
+      "winston": 0.94,
+      "originality": 1,
+      "zerogpt": 0.858,
+      "grammarly": 0.61,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "superhumanizer-s01",
+    "humanizer": "superhumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.45,
+      "originality": 0.9115,
+      "zerogpt": 0.806,
+      "grammarly": 0.71,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "superhumanizer-s02",
+    "humanizer": "superhumanizer",
+    "scores": {
+      "gptzero": 0.9998,
+      "winston": 0.99,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 0.8597,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "superhumanizer-s03",
+    "humanizer": "superhumanizer",
+    "scores": {
+      "gptzero": 0.9861,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.29,
+      "grammarly": 0.77,
+      "quillbot": 0.1161,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "superhumanizer-s04",
+    "humanizer": "superhumanizer",
+    "scores": {
+      "gptzero": 0.4312,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 0.9114,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "superhumanizer-s05",
+    "humanizer": "superhumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 1,
+      "originality": 0.9776,
+      "zerogpt": 0.88,
+      "grammarly": 0.47,
+      "quillbot": 0.4803,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "superhumanizer-s06",
+    "humanizer": "superhumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.2448,
+      "zerogpt": 0.948,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "superhumanizer-s07",
+    "humanizer": "superhumanizer",
+    "scores": {
+      "gptzero": 0.4506,
+      "winston": 0.98,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 0.79,
+      "quillbot": 0.7689,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "superhumanizer-s08",
+    "humanizer": "superhumanizer",
+    "scores": {
+      "gptzero": 0.9974,
+      "winston": 0.31,
+      "originality": 0.0009,
+      "zerogpt": 0.758,
+      "grammarly": 0.84,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "superhumanizer-s09",
+    "humanizer": "superhumanizer",
+    "scores": {
+      "gptzero": 0.999,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.857,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "superhumanizer-s10",
+    "humanizer": "superhumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 0.78,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "superhumanizer-s11",
+    "humanizer": "superhumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.89,
+      "originality": 0.9999,
+      "zerogpt": 1,
+      "grammarly": 0.87,
+      "quillbot": 0.8765,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "superhumanizer-s12",
+    "humanizer": "superhumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.94,
+      "originality": 0.9972,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "superhumanizer-s13",
+    "humanizer": "superhumanizer",
+    "scores": {
+      "gptzero": 0.9995,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.835,
+      "grammarly": 0.86,
+      "quillbot": 0.4184,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "superhumanizer-s14",
+    "humanizer": "superhumanizer",
+    "scores": {
+      "gptzero": 0.5731,
+      "winston": 0.21,
+      "originality": 0.9996,
+      "zerogpt": 0.078,
+      "grammarly": 1,
+      "quillbot": 0,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "superhumanizer-s15",
+    "humanizer": "superhumanizer",
+    "scores": {
+      "gptzero": 0.9999,
+      "winston": 0.98,
+      "originality": 1,
+      "zerogpt": 0.639,
+      "grammarly": 1,
+      "quillbot": 0.6678,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "superhumanizer-s16",
+    "humanizer": "superhumanizer",
+    "scores": {
+      "gptzero": 0.9937,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.749,
+      "grammarly": 0.57,
+      "quillbot": 1,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "superhumanizer-s17",
+    "humanizer": "superhumanizer",
+    "scores": {
+      "gptzero": 0.9803,
+      "winston": 0.08,
+      "originality": 0.3177,
+      "zerogpt": 0.954,
+      "grammarly": 0.73,
+      "quillbot": 1,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "superhumanizer-s18",
+    "humanizer": "superhumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.34,
+      "originality": 0.0019,
+      "zerogpt": 1,
+      "grammarly": 0.79,
+      "quillbot": 0.8319,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "superhumanizer-s19",
+    "humanizer": "superhumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 1,
+      "originality": 0.9999,
+      "zerogpt": 1,
+      "grammarly": 0.9,
+      "quillbot": 1,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "superhumanizer-s20",
+    "humanizer": "superhumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.51,
+      "originality": 0.9996,
+      "zerogpt": 0.555,
+      "grammarly": 0.73,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "superhumanizer-s21",
+    "humanizer": "superhumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.9,
+      "originality": 0.9971,
+      "zerogpt": 0.827,
+      "grammarly": 0.77,
+      "quillbot": 0.7744,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "superhumanizer-s22",
+    "humanizer": "superhumanizer",
+    "scores": {
+      "gptzero": 0.9987,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "superhumanizer-s23",
+    "humanizer": "superhumanizer",
+    "scores": {
+      "gptzero": 0.9987,
+      "winston": 0.38,
+      "originality": 0.9992,
+      "zerogpt": 0.918,
+      "grammarly": 0.89,
+      "quillbot": 0.7014,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "superhumanizer-s24",
+    "humanizer": "superhumanizer",
+    "scores": {
+      "gptzero": 0.9816,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.916,
+      "grammarly": 0.83,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "superhumanizer-s25",
+    "humanizer": "superhumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 1,
+      "originality": 0.9993,
+      "zerogpt": 0.637,
+      "grammarly": 0.57,
+      "quillbot": 0.4049,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "superhumanizer-s26",
+    "humanizer": "superhumanizer",
+    "scores": {
+      "gptzero": 0.9659,
+      "winston": 0.97,
+      "originality": 1,
+      "zerogpt": 0.845,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "superhumanizer-s27",
+    "humanizer": "superhumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.739,
+      "grammarly": 0.6,
+      "quillbot": 0.8852,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "superhumanizer-s28",
+    "humanizer": "superhumanizer",
+    "scores": {
+      "gptzero": 0.346,
+      "winston": 0.02,
+      "originality": 0.8107,
+      "zerogpt": 0.699,
+      "grammarly": 1,
+      "quillbot": 0.6513,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "superhumanizer-s29",
+    "humanizer": "superhumanizer",
+    "scores": {
+      "gptzero": 0.9999,
+      "winston": 0.01,
+      "originality": 0.9999,
+      "zerogpt": 0.76,
+      "grammarly": 0.39,
+      "quillbot": 0.4683,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "superhumanizer-s30",
+    "humanizer": "superhumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.01,
+      "originality": 0.8608,
+      "zerogpt": 0.861,
+      "grammarly": 0.7,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "superhumanizer-s31",
+    "humanizer": "superhumanizer",
+    "scores": {
+      "gptzero": 0.9999,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "superhumanizer-s32",
+    "humanizer": "superhumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "superhumanizer-s33",
+    "humanizer": "superhumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.74,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "hix-bypass-s01",
+    "humanizer": "hix-bypass",
+    "scores": {
+      "gptzero": 0,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "hix-bypass-s02",
+    "humanizer": "hix-bypass",
+    "scores": {
+      "gptzero": 0,
+      "winston": 1,
+      "originality": 0.9998,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "hix-bypass-s03",
+    "humanizer": "hix-bypass",
+    "scores": {
+      "gptzero": 0,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.723,
+      "grammarly": 0.7,
+      "quillbot": 0.6171,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "hix-bypass-s04",
+    "humanizer": "hix-bypass",
+    "scores": {
+      "gptzero": 0.6483,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "hix-bypass-s05",
+    "humanizer": "hix-bypass",
+    "scores": {
+      "gptzero": 0,
+      "winston": 1,
+      "originality": 0.1564,
+      "zerogpt": 0.886,
+      "grammarly": 0.79,
+      "quillbot": 0.9434,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "hix-bypass-s06",
+    "humanizer": "hix-bypass",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.9994,
+      "zerogpt": 0.894,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "hix-bypass-s07",
+    "humanizer": "hix-bypass",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.01,
+      "originality": 0.8005,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 0.6884,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "hix-bypass-s08",
+    "humanizer": "hix-bypass",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.96,
+      "originality": 0.0005,
+      "zerogpt": 1,
+      "grammarly": 0.89,
+      "quillbot": 1,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "hix-bypass-s09",
+    "humanizer": "hix-bypass",
+    "scores": {
+      "gptzero": 0.3387,
+      "winston": 0.93,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 0.81,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "hix-bypass-s10",
+    "humanizer": "hix-bypass",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.98,
+      "originality": 0.9131,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "hix-bypass-s11",
+    "humanizer": "hix-bypass",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.97,
+      "originality": 1,
+      "zerogpt": 0.962,
+      "grammarly": 0.91,
+      "quillbot": 0.9446,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "hix-bypass-s12",
+    "humanizer": "hix-bypass",
+    "scores": {
+      "gptzero": 0,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "hix-bypass-s13",
+    "humanizer": "hix-bypass",
+    "scores": {
+      "gptzero": 0.3392,
+      "winston": 0.98,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 0.7,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "hix-bypass-s14",
+    "humanizer": "hix-bypass",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.99,
+      "originality": 0.9647,
+      "zerogpt": 0.951,
+      "grammarly": 1,
+      "quillbot": 0.9238,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "hix-bypass-s15",
+    "humanizer": "hix-bypass",
+    "scores": {
+      "gptzero": 0,
+      "winston": 1,
+      "originality": 0.9972,
+      "zerogpt": 0.955,
+      "grammarly": 0.78,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "hix-bypass-s16",
+    "humanizer": "hix-bypass",
+    "scores": {
+      "gptzero": 0,
+      "winston": 1,
+      "originality": 0.9996,
+      "zerogpt": 1,
+      "grammarly": 0.81,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "hix-bypass-s17",
+    "humanizer": "hix-bypass",
+    "scores": {
+      "gptzero": 0,
+      "winston": 1,
+      "originality": 0.9256,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "hix-bypass-s18",
+    "humanizer": "hix-bypass",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.88,
+      "originality": 0.9997,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 0.9172,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "hix-bypass-s19",
+    "humanizer": "hix-bypass",
+    "scores": {
+      "gptzero": 0,
+      "winston": 1,
+      "originality": 0.0126,
+      "zerogpt": 1,
+      "grammarly": 0.74,
+      "quillbot": 0.6929,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "hix-bypass-s20",
+    "humanizer": "hix-bypass",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.07,
+      "originality": 0.9998,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "hix-bypass-s21",
+    "humanizer": "hix-bypass",
+    "scores": {
+      "gptzero": 0,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.833,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "hix-bypass-s22",
+    "humanizer": "hix-bypass",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.99,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "hix-bypass-s23",
+    "humanizer": "hix-bypass",
+    "scores": {
+      "gptzero": 0,
+      "winston": 1,
+      "originality": 0.9994,
+      "zerogpt": 1,
+      "grammarly": 0.86,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "hix-bypass-s24",
+    "humanizer": "hix-bypass",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.93,
+      "originality": 0.6706,
+      "zerogpt": 0.894,
+      "grammarly": 0.81,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "hix-bypass-s25",
+    "humanizer": "hix-bypass",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.33,
+      "originality": 0.9987,
+      "zerogpt": 0.352,
+      "grammarly": 0.75,
+      "quillbot": 0.2026,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "hix-bypass-s26",
+    "humanizer": "hix-bypass",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.99,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "hix-bypass-s27",
+    "humanizer": "hix-bypass",
+    "scores": {
+      "gptzero": 0,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.952,
+      "grammarly": 0.89,
+      "quillbot": 0.9973,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "hix-bypass-s28",
+    "humanizer": "hix-bypass",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.89,
+      "originality": 1,
+      "zerogpt": 0.944,
+      "grammarly": 0.52,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "hix-bypass-s29",
+    "humanizer": "hix-bypass",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.98,
+      "originality": 0.9887,
+      "zerogpt": 0.93,
+      "grammarly": 0.68,
+      "quillbot": 0.9004,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "hix-bypass-s30",
+    "humanizer": "hix-bypass",
+    "scores": {
+      "gptzero": 0,
+      "winston": 1,
+      "originality": 0.9713,
+      "zerogpt": 1,
+      "grammarly": 0.69,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "hix-bypass-s31",
+    "humanizer": "hix-bypass",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.71,
+      "originality": 0.9976,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "hix-bypass-s32",
+    "humanizer": "hix-bypass",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.99,
+      "originality": 0.9997,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "hix-bypass-s33",
+    "humanizer": "hix-bypass",
+    "scores": {
+      "gptzero": 0,
+      "winston": 1,
+      "originality": 0.9977,
+      "zerogpt": 0.98,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "writehuman-s01",
+    "humanizer": "writehuman",
+    "scores": {
+      "gptzero": 0.9995,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.741,
+      "grammarly": 0.84,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "writehuman-s02",
+    "humanizer": "writehuman",
+    "scores": {
+      "gptzero": 0.9999,
+      "winston": 0.98,
+      "originality": 0.9998,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "writehuman-s03",
+    "humanizer": "writehuman",
+    "scores": {
+      "gptzero": 0.9969,
+      "winston": 0.31,
+      "originality": 0.9988,
+      "zerogpt": 0.508,
+      "grammarly": 0.24,
+      "quillbot": 0,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "writehuman-s04",
+    "humanizer": "writehuman",
+    "scores": {
+      "gptzero": 1,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "writehuman-s05",
+    "humanizer": "writehuman",
+    "scores": {
+      "gptzero": 1,
+      "winston": 0.95,
+      "originality": 1,
+      "zerogpt": 0.854,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "writehuman-s06",
+    "humanizer": "writehuman",
+    "scores": {
+      "gptzero": 0.9999,
+      "winston": 0.09,
+      "originality": 0.9991,
+      "zerogpt": 0.851,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "writehuman-s07",
+    "humanizer": "writehuman",
+    "scores": {
+      "gptzero": 0.9998,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "writehuman-s08",
+    "humanizer": "writehuman",
+    "scores": {
+      "gptzero": 1,
+      "winston": 1,
+      "originality": 0.9598,
+      "zerogpt": 0.965,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "writehuman-s09",
+    "humanizer": "writehuman",
+    "scores": {
+      "gptzero": 0.9998,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.869,
+      "grammarly": 1,
+      "quillbot": 0.7652,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "writehuman-s10",
+    "humanizer": "writehuman",
+    "scores": {
+      "gptzero": 0.9999,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "writehuman-s11",
+    "humanizer": "writehuman",
+    "scores": {
+      "gptzero": 1,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "writehuman-s12",
+    "humanizer": "writehuman",
+    "scores": {
+      "gptzero": 1,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "writehuman-s13",
+    "humanizer": "writehuman",
+    "scores": {
+      "gptzero": 1,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "writehuman-s14",
+    "humanizer": "writehuman",
+    "scores": {
+      "gptzero": 1,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.797,
+      "grammarly": 0.91,
+      "quillbot": 0.9795,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "writehuman-s15",
+    "humanizer": "writehuman",
+    "scores": {
+      "gptzero": 1,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "writehuman-s16",
+    "humanizer": "writehuman",
+    "scores": {
+      "gptzero": 0.9994,
+      "winston": 0.97,
+      "originality": 0.9999,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "writehuman-s17",
+    "humanizer": "writehuman",
+    "scores": {
+      "gptzero": 0.9997,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.885,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "writehuman-s18",
+    "humanizer": "writehuman",
+    "scores": {
+      "gptzero": 0.9988,
+      "winston": 1,
+      "originality": 0.9945,
+      "zerogpt": 0.907,
+      "grammarly": 0.85,
+      "quillbot": 0.0586,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "writehuman-s19",
+    "humanizer": "writehuman",
+    "scores": {
+      "gptzero": 1,
+      "winston": 1,
+      "originality": 0.9994,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "writehuman-s20",
+    "humanizer": "writehuman",
+    "scores": {
+      "gptzero": 1,
+      "winston": 1,
+      "originality": 0.9913,
+      "zerogpt": 0.882,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "writehuman-s21",
+    "humanizer": "writehuman",
+    "scores": {
+      "gptzero": 0.9978,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "writehuman-s22",
+    "humanizer": "writehuman",
+    "scores": {
+      "gptzero": 1,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "writehuman-s23",
+    "humanizer": "writehuman",
+    "scores": {
+      "gptzero": 1,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.934,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "writehuman-s24",
+    "humanizer": "writehuman",
+    "scores": {
+      "gptzero": 0.9979,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.945,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "writehuman-s25",
+    "humanizer": "writehuman",
+    "scores": {
+      "gptzero": 0.9998,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.7,
+      "grammarly": 0.82,
+      "quillbot": 0.9679,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "writehuman-s26",
+    "humanizer": "writehuman",
+    "scores": {
+      "gptzero": 0.9984,
+      "winston": 1,
+      "originality": 0.9872,
+      "zerogpt": 0.902,
+      "grammarly": 1,
+      "quillbot": 0.8468,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "writehuman-s27",
+    "humanizer": "writehuman",
+    "scores": {
+      "gptzero": 1,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.912,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "writehuman-s28",
+    "humanizer": "writehuman",
+    "scores": {
+      "gptzero": 1,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.971,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "writehuman-s29",
+    "humanizer": "writehuman",
+    "scores": {
+      "gptzero": 0.9997,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 0.9118,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "writehuman-s30",
+    "humanizer": "writehuman",
+    "scores": {
+      "gptzero": 1,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.97,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "writehuman-s31",
+    "humanizer": "writehuman",
+    "scores": {
+      "gptzero": 1,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "writehuman-s32",
+    "humanizer": "writehuman",
+    "scores": {
+      "gptzero": 1,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "writehuman-s33",
+    "humanizer": "writehuman",
+    "scores": {
+      "gptzero": 1,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "aihumanize-s01",
+    "humanizer": "aihumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.99,
+      "originality": 0.9999,
+      "zerogpt": 0.944,
+      "grammarly": 0.79,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "aihumanize-s02",
+    "humanizer": "aihumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.97,
+      "originality": 0.9999,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 0.9055,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "aihumanize-s03",
+    "humanizer": "aihumanize",
+    "scores": {
+      "gptzero": 0.9835,
+      "winston": 0.65,
+      "originality": 1,
+      "zerogpt": 0.444,
+      "grammarly": 1,
+      "quillbot": 0.7638,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "aihumanize-s04",
+    "humanizer": "aihumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.869,
+      "grammarly": 1,
+      "quillbot": 0.735,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "aihumanize-s05",
+    "humanizer": "aihumanize",
+    "scores": {
+      "gptzero": 0.9999,
+      "winston": 1,
+      "originality": 0.9743,
+      "zerogpt": 0.921,
+      "grammarly": 0.67,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "aihumanize-s06",
+    "humanizer": "aihumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.1788,
+      "zerogpt": 0.591,
+      "grammarly": 0.56,
+      "quillbot": 0.8774,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "aihumanize-s07",
+    "humanizer": "aihumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.12,
+      "originality": 0.9988,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 0.9853,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "aihumanize-s08",
+    "humanizer": "aihumanize",
+    "scores": {
+      "gptzero": 0.9997,
+      "winston": 1,
+      "originality": 0.305,
+      "zerogpt": 0.944,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "aihumanize-s09",
+    "humanizer": "aihumanize",
+    "scores": {
+      "gptzero": 0.9666,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "aihumanize-s10",
+    "humanizer": "aihumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.95,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "aihumanize-s11",
+    "humanizer": "aihumanize",
+    "scores": {
+      "gptzero": 0.9991,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "aihumanize-s12",
+    "humanizer": "aihumanize",
+    "scores": {
+      "gptzero": 0.9826,
+      "winston": 0.98,
+      "originality": 0.9818,
+      "zerogpt": 0.858,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "aihumanize-s13",
+    "humanizer": "aihumanize",
+    "scores": {
+      "gptzero": 0.9513,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "aihumanize-s14",
+    "humanizer": "aihumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.08,
+      "originality": 1,
+      "zerogpt": 0.813,
+      "grammarly": 0.82,
+      "quillbot": 0.5603,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "aihumanize-s15",
+    "humanizer": "aihumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 1,
+      "originality": 0.9999,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "aihumanize-s16",
+    "humanizer": "aihumanize",
+    "scores": {
+      "gptzero": 0.9976,
+      "winston": 1,
+      "originality": 0.8202,
+      "zerogpt": 0.928,
+      "grammarly": 1,
+      "quillbot": 0.8599,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "aihumanize-s17",
+    "humanizer": "aihumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.8,
+      "originality": 0.0036,
+      "zerogpt": 0.598,
+      "grammarly": 0.85,
+      "quillbot": 0.8797,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "aihumanize-s18",
+    "humanizer": "aihumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.99,
+      "originality": 0.9997,
+      "zerogpt": 0.871,
+      "grammarly": 0.88,
+      "quillbot": 0.7774,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "aihumanize-s19",
+    "humanizer": "aihumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 1,
+      "originality": 0.0446,
+      "zerogpt": 0.896,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "aihumanize-s20",
+    "humanizer": "aihumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "aihumanize-s21",
+    "humanizer": "aihumanize",
+    "scores": {
+      "gptzero": 0.6871,
+      "winston": 0.96,
+      "originality": 0.9999,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "aihumanize-s22",
+    "humanizer": "aihumanize",
+    "scores": {
+      "gptzero": 0.5961,
+      "winston": 0.96,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "aihumanize-s23",
+    "humanizer": "aihumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 1,
+      "originality": 0.992,
+      "zerogpt": 0.947,
+      "grammarly": 0.81,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "aihumanize-s24",
+    "humanizer": "aihumanize",
+    "scores": {
+      "gptzero": 0.5049,
+      "winston": 0.79,
+      "originality": 0.9999,
+      "zerogpt": 1,
+      "grammarly": 0.69,
+      "quillbot": 0.904,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "aihumanize-s25",
+    "humanizer": "aihumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.97,
+      "originality": 0.9998,
+      "zerogpt": 0.132,
+      "grammarly": 0.65,
+      "quillbot": 0,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "aihumanize-s26",
+    "humanizer": "aihumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.98,
+      "originality": 0.9994,
+      "zerogpt": 0.576,
+      "grammarly": 1,
+      "quillbot": 0.795,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "aihumanize-s27",
+    "humanizer": "aihumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 1,
+      "originality": 0.9996,
+      "zerogpt": 0.47,
+      "grammarly": 0.9,
+      "quillbot": 0.5018,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "aihumanize-s28",
+    "humanizer": "aihumanize",
+    "scores": {
+      "gptzero": 0.9999,
+      "winston": 0.94,
+      "originality": 0.9994,
+      "zerogpt": 0.711,
+      "grammarly": 1,
+      "quillbot": 0.763,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "aihumanize-s29",
+    "humanizer": "aihumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.6,
+      "originality": 0.0196,
+      "zerogpt": 0.848,
+      "grammarly": 0.44,
+      "quillbot": 0.7354,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "aihumanize-s30",
+    "humanizer": "aihumanize",
+    "scores": {
+      "gptzero": 0.9023,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.908,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "aihumanize-s31",
+    "humanizer": "aihumanize",
+    "scores": {
+      "gptzero": 1,
+      "winston": 0.98,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "aihumanize-s32",
+    "humanizer": "aihumanize",
+    "scores": {
+      "gptzero": 0.936,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "aihumanize-s33",
+    "humanizer": "aihumanize",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.84,
+      "originality": 0.8842,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "cleverhumanizer-s01",
+    "humanizer": "cleverhumanizer",
+    "scores": {
+      "gptzero": 0.9975,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "cleverhumanizer-s02",
+    "humanizer": "cleverhumanizer",
+    "scores": {
+      "gptzero": 0.9982,
+      "winston": 1,
+      "originality": 0.9998,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "cleverhumanizer-s03",
+    "humanizer": "cleverhumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0004,
+      "zerogpt": 0.014,
+      "grammarly": 0,
+      "quillbot": 0,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "cleverhumanizer-s04",
+    "humanizer": "cleverhumanizer",
+    "scores": {
+      "gptzero": 0.9702,
+      "winston": 1,
+      "originality": 0.9999,
+      "zerogpt": 1,
+      "grammarly": 0.68,
+      "quillbot": 0.3758,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "cleverhumanizer-s05",
+    "humanizer": "cleverhumanizer",
+    "scores": {
+      "gptzero": 0.9998,
+      "winston": 0.98,
+      "originality": 0.9979,
+      "zerogpt": 0.892,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "cleverhumanizer-s06",
+    "humanizer": "cleverhumanizer",
+    "scores": {
+      "gptzero": 1,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.903,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "cleverhumanizer-s07",
+    "humanizer": "cleverhumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.14,
+      "originality": 1,
+      "zerogpt": 0.962,
+      "grammarly": 0.66,
+      "quillbot": 0.1923,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "cleverhumanizer-s08",
+    "humanizer": "cleverhumanizer",
+    "scores": {
+      "gptzero": 0.4634,
+      "winston": 0.93,
+      "originality": 0.9984,
+      "zerogpt": 0.897,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "cleverhumanizer-s09",
+    "humanizer": "cleverhumanizer",
+    "scores": {
+      "gptzero": 0.9996,
+      "winston": 0.99,
+      "originality": 1,
+      "zerogpt": 0,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "cleverhumanizer-s10",
+    "humanizer": "cleverhumanizer",
+    "scores": {
+      "gptzero": 0.997,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.802,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "cleverhumanizer-s11",
+    "humanizer": "cleverhumanizer",
+    "scores": {
+      "gptzero": 0.9901,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "cleverhumanizer-s12",
+    "humanizer": "cleverhumanizer",
+    "scores": {
+      "gptzero": 0.9996,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "cleverhumanizer-s13",
+    "humanizer": "cleverhumanizer",
+    "scores": {
+      "gptzero": 0.9993,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.83,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "cleverhumanizer-s14",
+    "humanizer": "cleverhumanizer",
+    "scores": {
+      "gptzero": 0.9966,
+      "winston": 0.93,
+      "originality": 1,
+      "zerogpt": 0.785,
+      "grammarly": 1,
+      "quillbot": 0.8238,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "cleverhumanizer-s15",
+    "humanizer": "cleverhumanizer",
+    "scores": {
+      "gptzero": 0.9995,
+      "winston": 1,
+      "originality": 0.9998,
+      "zerogpt": 0.909,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "cleverhumanizer-s16",
+    "humanizer": "cleverhumanizer",
+    "scores": {
+      "gptzero": 0.811,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.893,
+      "grammarly": 1,
+      "quillbot": 0.9068,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "cleverhumanizer-s17",
+    "humanizer": "cleverhumanizer",
+    "scores": {
+      "gptzero": 0.7895,
+      "winston": 0.24,
+      "originality": 1,
+      "zerogpt": 0.749,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "cleverhumanizer-s18",
+    "humanizer": "cleverhumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.9999,
+      "zerogpt": 1,
+      "grammarly": 0.42,
+      "quillbot": 0.5242,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "cleverhumanizer-s19",
+    "humanizer": "cleverhumanizer",
+    "scores": {
+      "gptzero": 0.9284,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 0.88,
+      "quillbot": 1,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "cleverhumanizer-s20",
+    "humanizer": "cleverhumanizer",
+    "scores": {
+      "gptzero": 1,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.893,
+      "grammarly": 1,
+      "quillbot": 0.8801,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "cleverhumanizer-s21",
+    "humanizer": "cleverhumanizer",
+    "scores": {
+      "gptzero": 0.9993,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "cleverhumanizer-s22",
+    "humanizer": "cleverhumanizer",
+    "scores": {
+      "gptzero": 0.9997,
+      "winston": 0.99,
+      "originality": 0.9999,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "cleverhumanizer-s23",
+    "humanizer": "cleverhumanizer",
+    "scores": {
+      "gptzero": 0.9969,
+      "winston": 1,
+      "originality": 0.993,
+      "zerogpt": 0.903,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "cleverhumanizer-s24",
+    "humanizer": "cleverhumanizer",
+    "scores": {
+      "gptzero": 0.9991,
+      "winston": 1,
+      "originality": 0.9999,
+      "zerogpt": 0.727,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "cleverhumanizer-s25",
+    "humanizer": "cleverhumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.95,
+      "originality": 0.9999,
+      "zerogpt": 0.065,
+      "grammarly": 0.67,
+      "quillbot": 0,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "cleverhumanizer-s26",
+    "humanizer": "cleverhumanizer",
+    "scores": {
+      "gptzero": 0.9946,
+      "winston": 0.96,
+      "originality": 1,
+      "zerogpt": 0.632,
+      "grammarly": 0.66,
+      "quillbot": 0,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "cleverhumanizer-s27",
+    "humanizer": "cleverhumanizer",
+    "scores": {
+      "gptzero": 0.9381,
+      "winston": 1,
+      "originality": 0.9843,
+      "zerogpt": 0.84,
+      "grammarly": 0.93,
+      "quillbot": 0.3148,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "cleverhumanizer-s28",
+    "humanizer": "cleverhumanizer",
+    "scores": {
+      "gptzero": 1,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.73,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "cleverhumanizer-s29",
+    "humanizer": "cleverhumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.99,
+      "originality": 1,
+      "zerogpt": 0.481,
+      "grammarly": 0.78,
+      "quillbot": 0.4846,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "cleverhumanizer-s30",
+    "humanizer": "cleverhumanizer",
+    "scores": {
+      "gptzero": 0.991,
+      "winston": 1,
+      "originality": 0.9941,
+      "zerogpt": 0.841,
+      "grammarly": 1,
+      "quillbot": 0.3153,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "cleverhumanizer-s31",
+    "humanizer": "cleverhumanizer",
+    "scores": {
+      "gptzero": 0.9969,
+      "winston": 0,
+      "originality": 0.0001,
+      "zerogpt": 0.025,
+      "grammarly": 0.43,
+      "quillbot": 0.5652,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "cleverhumanizer-s32",
+    "humanizer": "cleverhumanizer",
+    "scores": {
+      "gptzero": 0.9995,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "cleverhumanizer-s33",
+    "humanizer": "cleverhumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "undetectable-ai-s01",
+    "humanizer": "undetectable-ai",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0,
+      "zerogpt": 0,
+      "grammarly": 0,
+      "quillbot": 0,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "undetectable-ai-s02",
+    "humanizer": "undetectable-ai",
+    "scores": {
+      "gptzero": 0.3153,
+      "winston": 0,
+      "originality": 0.0006,
+      "zerogpt": 0.366,
+      "grammarly": 0.37,
+      "quillbot": 0,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "undetectable-ai-s03",
+    "humanizer": "undetectable-ai",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0,
+      "zerogpt": 0.218,
+      "grammarly": 0,
+      "quillbot": 0,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "undetectable-ai-s04",
+    "humanizer": "undetectable-ai",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0,
+      "zerogpt": 0.103,
+      "grammarly": 0,
+      "quillbot": 0,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "undetectable-ai-s05",
+    "humanizer": "undetectable-ai",
+    "scores": {
+      "gptzero": 0.912,
+      "winston": 0,
+      "originality": 0.0002,
+      "zerogpt": 0.074,
+      "grammarly": 0.15,
+      "quillbot": 0,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "undetectable-ai-s06",
+    "humanizer": "undetectable-ai",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0001,
+      "zerogpt": 0.086,
+      "grammarly": 0.12,
+      "quillbot": 0.4226,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "undetectable-ai-s07",
+    "humanizer": "undetectable-ai",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0002,
+      "zerogpt": 0.258,
+      "grammarly": 0,
+      "quillbot": 0,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "undetectable-ai-s08",
+    "humanizer": "undetectable-ai",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0001,
+      "zerogpt": 0.956,
+      "grammarly": 0.4,
+      "quillbot": 0.6898,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "undetectable-ai-s09",
+    "humanizer": "undetectable-ai",
+    "scores": {
+      "gptzero": 0.5958,
+      "winston": 0,
+      "originality": 0.0013,
+      "zerogpt": 0,
+      "grammarly": 0.46,
+      "quillbot": 0,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "undetectable-ai-s10",
+    "humanizer": "undetectable-ai",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0,
+      "zerogpt": 0.251,
+      "grammarly": 0.28,
+      "quillbot": 0,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "undetectable-ai-s11",
+    "humanizer": "undetectable-ai",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0002,
+      "zerogpt": 0.792,
+      "grammarly": 0.12,
+      "quillbot": 0.1818,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "undetectable-ai-s12",
+    "humanizer": "undetectable-ai",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0001,
+      "zerogpt": 0.694,
+      "grammarly": 0.16,
+      "quillbot": 0,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "undetectable-ai-s13",
+    "humanizer": "undetectable-ai",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0,
+      "zerogpt": 0,
+      "grammarly": 0.37,
+      "quillbot": 0,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "undetectable-ai-s14",
+    "humanizer": "undetectable-ai",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0001,
+      "zerogpt": 0.428,
+      "grammarly": 0,
+      "quillbot": 0,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "undetectable-ai-s15",
+    "humanizer": "undetectable-ai",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0,
+      "zerogpt": 0.02,
+      "grammarly": 0.28,
+      "quillbot": 0,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "undetectable-ai-s16",
+    "humanizer": "undetectable-ai",
+    "scores": {
+      "gptzero": 0.6459,
+      "winston": 0,
+      "originality": 0.1551,
+      "zerogpt": 0.572,
+      "grammarly": 0.15,
+      "quillbot": 0.1503,
+      "copyleaks": 0.5067
+    }
+  },
+  {
+    "test_id": "undetectable-ai-s17",
+    "humanizer": "undetectable-ai",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0001,
+      "zerogpt": 0.148,
+      "grammarly": 0,
+      "quillbot": 0.2542,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "undetectable-ai-s18",
+    "humanizer": "undetectable-ai",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0,
+      "zerogpt": 0.673,
+      "grammarly": 0,
+      "quillbot": 0,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "undetectable-ai-s19",
+    "humanizer": "undetectable-ai",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0001,
+      "zerogpt": 0.056,
+      "grammarly": 0,
+      "quillbot": 0.2137,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "undetectable-ai-s20",
+    "humanizer": "undetectable-ai",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.7111,
+      "zerogpt": 0.057,
+      "grammarly": 0.84,
+      "quillbot": 0.3232,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "undetectable-ai-s21",
+    "humanizer": "undetectable-ai",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0001,
+      "zerogpt": 0,
+      "grammarly": 0.1,
+      "quillbot": 0,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "undetectable-ai-s22",
+    "humanizer": "undetectable-ai",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.1812,
+      "zerogpt": 0.797,
+      "grammarly": 0.63,
+      "quillbot": 0.9358,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "undetectable-ai-s23",
+    "humanizer": "undetectable-ai",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.98,
+      "originality": 0.0001,
+      "zerogpt": 0.909,
+      "grammarly": 0.58,
+      "quillbot": 0.0735,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "undetectable-ai-s24",
+    "humanizer": "undetectable-ai",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0001,
+      "zerogpt": 0.246,
+      "grammarly": 0.32,
+      "quillbot": 0,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "undetectable-ai-s25",
+    "humanizer": "undetectable-ai",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.1762,
+      "zerogpt": 0.498,
+      "grammarly": 0,
+      "quillbot": 0,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "undetectable-ai-s26",
+    "humanizer": "undetectable-ai",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0,
+      "zerogpt": 0.402,
+      "grammarly": 0,
+      "quillbot": 0,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "undetectable-ai-s27",
+    "humanizer": "undetectable-ai",
+    "scores": {
+      "gptzero": 0.9985,
+      "winston": 0,
+      "originality": 0.0009,
+      "zerogpt": 0.095,
+      "grammarly": 0.27,
+      "quillbot": 0.2508,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "undetectable-ai-s28",
+    "humanizer": "undetectable-ai",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0001,
+      "zerogpt": 0.201,
+      "grammarly": 0.2,
+      "quillbot": 0.5105,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "undetectable-ai-s29",
+    "humanizer": "undetectable-ai",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0046,
+      "zerogpt": 0.455,
+      "grammarly": 0,
+      "quillbot": 0.2924,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "undetectable-ai-s30",
+    "humanizer": "undetectable-ai",
+    "scores": {
+      "gptzero": 0.499,
+      "winston": 0,
+      "originality": 0.0057,
+      "zerogpt": 0.199,
+      "grammarly": 0.22,
+      "quillbot": 0.0367,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "undetectable-ai-s31",
+    "humanizer": "undetectable-ai",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0,
+      "zerogpt": 0.36,
+      "grammarly": 0,
+      "quillbot": 0,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "undetectable-ai-s32",
+    "humanizer": "undetectable-ai",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0179,
+      "zerogpt": 0.478,
+      "grammarly": 0,
+      "quillbot": 0.2027,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "undetectable-ai-s33",
+    "humanizer": "undetectable-ai",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0001,
+      "zerogpt": 1,
+      "grammarly": 0.78,
+      "quillbot": 0.2347,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "stealthgpt-s01",
+    "humanizer": "stealthgpt",
+    "scores": {
+      "gptzero": 0,
+      "winston": 1,
+      "originality": 0.9984,
+      "zerogpt": 0.712,
+      "grammarly": 0.69,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "stealthgpt-s02",
+    "humanizer": "stealthgpt",
+    "scores": {
+      "gptzero": 0.998,
+      "winston": 0.99,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "stealthgpt-s03",
+    "humanizer": "stealthgpt",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0002,
+      "zerogpt": 0,
+      "grammarly": 0.6,
+      "quillbot": 0,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "stealthgpt-s04",
+    "humanizer": "stealthgpt",
+    "scores": {
+      "gptzero": 0.9991,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 0.509,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "stealthgpt-s05",
+    "humanizer": "stealthgpt",
+    "scores": {
+      "gptzero": 0,
+      "winston": 1,
+      "originality": 0.6337,
+      "zerogpt": 0.917,
+      "grammarly": 0.42,
+      "quillbot": 0.7688,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "stealthgpt-s06",
+    "humanizer": "stealthgpt",
+    "scores": {
+      "gptzero": 0.8771,
+      "winston": 0,
+      "originality": 0.0041,
+      "zerogpt": 0.774,
+      "grammarly": 0.75,
+      "quillbot": 0.7906,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "stealthgpt-s07",
+    "humanizer": "stealthgpt",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.5361,
+      "zerogpt": 0,
+      "grammarly": 0,
+      "quillbot": 0.4957,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "stealthgpt-s08",
+    "humanizer": "stealthgpt",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.95,
+      "originality": 0.1744,
+      "zerogpt": 1,
+      "grammarly": 0.88,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "stealthgpt-s09",
+    "humanizer": "stealthgpt",
+    "scores": {
+      "gptzero": 0.996,
+      "winston": 0.36,
+      "originality": 0.1796,
+      "zerogpt": 0.103,
+      "grammarly": 0.67,
+      "quillbot": 0.1029,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "stealthgpt-s10",
+    "humanizer": "stealthgpt",
+    "scores": {
+      "gptzero": 0.9995,
+      "winston": 0.96,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "stealthgpt-s11",
+    "humanizer": "stealthgpt",
+    "scores": {
+      "gptzero": 0,
+      "winston": 1,
+      "originality": 0.999,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 0.9311,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "stealthgpt-s12",
+    "humanizer": "stealthgpt",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.98,
+      "originality": 0.9904,
+      "zerogpt": 0.829,
+      "grammarly": 1,
+      "quillbot": 0.7177,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "stealthgpt-s13",
+    "humanizer": "stealthgpt",
+    "scores": {
+      "gptzero": 0.9965,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "stealthgpt-s14",
+    "humanizer": "stealthgpt",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.003,
+      "zerogpt": 0,
+      "grammarly": 0.22,
+      "quillbot": 0,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "stealthgpt-s15",
+    "humanizer": "stealthgpt",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.92,
+      "originality": 0.0685,
+      "zerogpt": 0,
+      "grammarly": 0.73,
+      "quillbot": 0,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "stealthgpt-s16",
+    "humanizer": "stealthgpt",
+    "scores": {
+      "gptzero": 0.9979,
+      "winston": 0.99,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "stealthgpt-s17",
+    "humanizer": "stealthgpt",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0001,
+      "zerogpt": 0.524,
+      "grammarly": 0.18,
+      "quillbot": 0.8257,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "stealthgpt-s18",
+    "humanizer": "stealthgpt",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.9557,
+      "zerogpt": 1,
+      "grammarly": 0.41,
+      "quillbot": 0.4906,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "stealthgpt-s19",
+    "humanizer": "stealthgpt",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.99,
+      "originality": 0.9896,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "stealthgpt-s20",
+    "humanizer": "stealthgpt",
+    "scores": {
+      "gptzero": 0.9999,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 0.9653,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "stealthgpt-s21",
+    "humanizer": "stealthgpt",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0029,
+      "zerogpt": 0,
+      "grammarly": 0.18,
+      "quillbot": 0.0571,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "stealthgpt-s22",
+    "humanizer": "stealthgpt",
+    "scores": {
+      "gptzero": 0.9998,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.878,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "stealthgpt-s23",
+    "humanizer": "stealthgpt",
+    "scores": {
+      "gptzero": 0,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.945,
+      "grammarly": 1,
+      "quillbot": 0.9248,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "stealthgpt-s24",
+    "humanizer": "stealthgpt",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.59,
+      "originality": 0.9882,
+      "zerogpt": 0.47,
+      "grammarly": 0.55,
+      "quillbot": 0,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "stealthgpt-s25",
+    "humanizer": "stealthgpt",
+    "scores": {
+      "gptzero": 0.9838,
+      "winston": 0,
+      "originality": 0.0001,
+      "zerogpt": 0.111,
+      "grammarly": 0,
+      "quillbot": 0,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "stealthgpt-s26",
+    "humanizer": "stealthgpt",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.02,
+      "originality": 0,
+      "zerogpt": 1,
+      "grammarly": 0.69,
+      "quillbot": 0,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "stealthgpt-s27",
+    "humanizer": "stealthgpt",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.0004,
+      "zerogpt": 0,
+      "grammarly": 0.28,
+      "quillbot": 0,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "stealthgpt-s28",
+    "humanizer": "stealthgpt",
+    "scores": {
+      "gptzero": 0.9933,
+      "winston": 0.91,
+      "originality": 1,
+      "zerogpt": 0.62,
+      "grammarly": 0.48,
+      "quillbot": 0.9973,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "stealthgpt-s29",
+    "humanizer": "stealthgpt",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.9996,
+      "zerogpt": 0.79,
+      "grammarly": 0.79,
+      "quillbot": 0.8722,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "stealthgpt-s30",
+    "humanizer": "stealthgpt",
+    "scores": {
+      "gptzero": 1,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.874,
+      "grammarly": 1,
+      "quillbot": 0.9562,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "stealthgpt-s31",
+    "humanizer": "stealthgpt",
+    "scores": {
+      "gptzero": 0.9998,
+      "winston": 0.01,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 0.8689,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "stealthgpt-s32",
+    "humanizer": "stealthgpt",
+    "scores": {
+      "gptzero": 0.8499,
+      "winston": 0.57,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 0.7952,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "stealthgpt-s33",
+    "humanizer": "stealthgpt",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.1643,
+      "zerogpt": 0.697,
+      "grammarly": 0.24,
+      "quillbot": 0.1565,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "undetectedgpt-s01",
+    "humanizer": "undetectedgpt",
+    "scores": {
+      "gptzero": 0.6651,
+      "winston": 0.01,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "undetectedgpt-s02",
+    "humanizer": "undetectedgpt",
+    "scores": {
+      "gptzero": 0.9989,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "undetectedgpt-s03",
+    "humanizer": "undetectedgpt",
+    "scores": {
+      "gptzero": 0,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.901,
+      "grammarly": 1,
+      "quillbot": 0.6679,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "undetectedgpt-s04",
+    "humanizer": "undetectedgpt",
+    "scores": {
+      "gptzero": 0.9997,
+      "winston": 1,
+      "originality": 0.9999,
+      "zerogpt": 0.905,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "undetectedgpt-s05",
+    "humanizer": "undetectedgpt",
+    "scores": {
+      "gptzero": 0,
+      "winston": 1,
+      "originality": 0.9983,
+      "zerogpt": 0.818,
+      "grammarly": 0.71,
+      "quillbot": 0.6399,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "undetectedgpt-s06",
+    "humanizer": "undetectedgpt",
+    "scores": {
+      "gptzero": 0.9994,
+      "winston": 0,
+      "originality": 0.9988,
+      "zerogpt": 0.877,
+      "grammarly": 1,
+      "quillbot": 0.9901,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "undetectedgpt-s07",
+    "humanizer": "undetectedgpt",
+    "scores": {
+      "gptzero": 0.9125,
+      "winston": 0.97,
+      "originality": 0.9999,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 0.7969,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "undetectedgpt-s08",
+    "humanizer": "undetectedgpt",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.98,
+      "originality": 0.9987,
+      "zerogpt": 0.91,
+      "grammarly": 0.89,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "undetectedgpt-s09",
+    "humanizer": "undetectedgpt",
+    "scores": {
+      "gptzero": 0.877,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.879,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "undetectedgpt-s10",
+    "humanizer": "undetectedgpt",
+    "scores": {
+      "gptzero": 0,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "undetectedgpt-s11",
+    "humanizer": "undetectedgpt",
+    "scores": {
+      "gptzero": 0.9959,
+      "winston": 1,
+      "originality": 0.9983,
+      "zerogpt": 0.948,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "undetectedgpt-s12",
+    "humanizer": "undetectedgpt",
+    "scores": {
+      "gptzero": 0.9613,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "undetectedgpt-s13",
+    "humanizer": "undetectedgpt",
+    "scores": {
+      "gptzero": 1,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "undetectedgpt-s14",
+    "humanizer": "undetectedgpt",
+    "scores": {
+      "gptzero": 0,
+      "winston": 1,
+      "originality": 0.9999,
+      "zerogpt": 0.823,
+      "grammarly": 1,
+      "quillbot": 0.8131,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "undetectedgpt-s15",
+    "humanizer": "undetectedgpt",
+    "scores": {
+      "gptzero": 0.9955,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "undetectedgpt-s16",
+    "humanizer": "undetectedgpt",
+    "scores": {
+      "gptzero": 0.9998,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.891,
+      "grammarly": 0.76,
+      "quillbot": 0.7987,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "undetectedgpt-s17",
+    "humanizer": "undetectedgpt",
+    "scores": {
+      "gptzero": 1,
+      "winston": 1,
+      "originality": 0.9967,
+      "zerogpt": 0.92,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "undetectedgpt-s18",
+    "humanizer": "undetectedgpt",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.9999,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 0.8623,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "undetectedgpt-s19",
+    "humanizer": "undetectedgpt",
+    "scores": {
+      "gptzero": 0.996,
+      "winston": 0.99,
+      "originality": 0.9997,
+      "zerogpt": 0.955,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "undetectedgpt-s20",
+    "humanizer": "undetectedgpt",
+    "scores": {
+      "gptzero": 0,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.945,
+      "grammarly": 1,
+      "quillbot": 0.9496,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "undetectedgpt-s21",
+    "humanizer": "undetectedgpt",
+    "scores": {
+      "gptzero": 0,
+      "winston": 1,
+      "originality": 0.9998,
+      "zerogpt": 0.838,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "undetectedgpt-s22",
+    "humanizer": "undetectedgpt",
+    "scores": {
+      "gptzero": 0.9997,
+      "winston": 0.89,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "undetectedgpt-s23",
+    "humanizer": "undetectedgpt",
+    "scores": {
+      "gptzero": 0.9988,
+      "winston": 1,
+      "originality": 0.9999,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "undetectedgpt-s24",
+    "humanizer": "undetectedgpt",
+    "scores": {
+      "gptzero": 0.9559,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "undetectedgpt-s25",
+    "humanizer": "undetectedgpt",
+    "scores": {
+      "gptzero": 0.8694,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.741,
+      "grammarly": 0.87,
+      "quillbot": 0.3769,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "undetectedgpt-s26",
+    "humanizer": "undetectedgpt",
+    "scores": {
+      "gptzero": 0.982,
+      "winston": 1,
+      "originality": 0.9992,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "undetectedgpt-s27",
+    "humanizer": "undetectedgpt",
+    "scores": {
+      "gptzero": 0.9735,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 0.9157,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "undetectedgpt-s28",
+    "humanizer": "undetectedgpt",
+    "scores": {
+      "gptzero": 0.9993,
+      "winston": 0.04,
+      "originality": 0.9999,
+      "zerogpt": 0.525,
+      "grammarly": 0.87,
+      "quillbot": 0.9021,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "undetectedgpt-s29",
+    "humanizer": "undetectedgpt",
+    "scores": {
+      "gptzero": 0.9187,
+      "winston": 0.97,
+      "originality": 0.9048,
+      "zerogpt": 0.825,
+      "grammarly": 1,
+      "quillbot": 0.5,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "undetectedgpt-s30",
+    "humanizer": "undetectedgpt",
+    "scores": {
+      "gptzero": 0.6661,
+      "winston": 0,
+      "originality": 0.0094,
+      "zerogpt": 0.745,
+      "grammarly": 0.85,
+      "quillbot": 0.81,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "undetectedgpt-s31",
+    "humanizer": "undetectedgpt",
+    "scores": {
+      "gptzero": 0.9979,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "undetectedgpt-s32",
+    "humanizer": "undetectedgpt",
+    "scores": {
+      "gptzero": 0.994,
+      "winston": 1,
+      "originality": 0.9928,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "undetectedgpt-s33",
+    "humanizer": "undetectedgpt",
+    "scores": {
+      "gptzero": 0.987,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "smarthumanizer-s01",
+    "humanizer": "smarthumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.96,
+      "originality": 0.998,
+      "zerogpt": 0.828,
+      "grammarly": 0.82,
+      "quillbot": 0.9267,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "smarthumanizer-s02",
+    "humanizer": "smarthumanizer",
+    "scores": {
+      "gptzero": 0.1275,
+      "winston": 0.04,
+      "originality": 0.5652,
+      "zerogpt": 0.822,
+      "grammarly": 0.88,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "smarthumanizer-s03",
+    "humanizer": "smarthumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.77,
+      "originality": 0.9264,
+      "zerogpt": 0.069,
+      "grammarly": 0.49,
+      "quillbot": 0.3682,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "smarthumanizer-s04",
+    "humanizer": "smarthumanizer",
+    "scores": {
+      "gptzero": 0.9957,
+      "winston": 0.98,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 0.68,
+      "quillbot": 0.9136,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "smarthumanizer-s05",
+    "humanizer": "smarthumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.04,
+      "originality": 0.0508,
+      "zerogpt": 0.78,
+      "grammarly": 0.14,
+      "quillbot": 0.3249,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "smarthumanizer-s06",
+    "humanizer": "smarthumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.203,
+      "zerogpt": 0.711,
+      "grammarly": 0.92,
+      "quillbot": 0.7681,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "smarthumanizer-s07",
+    "humanizer": "smarthumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 1,
+      "zerogpt": 0.902,
+      "grammarly": 1,
+      "quillbot": 0.7908,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "smarthumanizer-s08",
+    "humanizer": "smarthumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.99,
+      "originality": 0.7856,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "smarthumanizer-s09",
+    "humanizer": "smarthumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.96,
+      "originality": 0.0153,
+      "zerogpt": 0.397,
+      "grammarly": 0.8,
+      "quillbot": 0.6569,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "smarthumanizer-s10",
+    "humanizer": "smarthumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.79,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "smarthumanizer-s11",
+    "humanizer": "smarthumanizer",
+    "scores": {
+      "gptzero": 0.6351,
+      "winston": 0.4,
+      "originality": 0.95,
+      "zerogpt": 0.799,
+      "grammarly": 0.88,
+      "quillbot": 0.7979,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "smarthumanizer-s12",
+    "humanizer": "smarthumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.98,
+      "originality": 1,
+      "zerogpt": 0.712,
+      "grammarly": 1,
+      "quillbot": 0.9529,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "smarthumanizer-s13",
+    "humanizer": "smarthumanizer",
+    "scores": {
+      "gptzero": 1,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.829,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "smarthumanizer-s14",
+    "humanizer": "smarthumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 1,
+      "zerogpt": 0.451,
+      "grammarly": 0.79,
+      "quillbot": 0.2794,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "smarthumanizer-s15",
+    "humanizer": "smarthumanizer",
+    "scores": {
+      "gptzero": 0.9997,
+      "winston": 0.99,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "smarthumanizer-s16",
+    "humanizer": "smarthumanizer",
+    "scores": {
+      "gptzero": 0.1472,
+      "winston": 1,
+      "originality": 1,
+      "zerogpt": 0.546,
+      "grammarly": 0.76,
+      "quillbot": 0.5607,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "smarthumanizer-s17",
+    "humanizer": "smarthumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.96,
+      "originality": 0.9471,
+      "zerogpt": 0.821,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "smarthumanizer-s18",
+    "humanizer": "smarthumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.8603,
+      "zerogpt": 1,
+      "grammarly": 0.64,
+      "quillbot": 0.8456,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "smarthumanizer-s19",
+    "humanizer": "smarthumanizer",
+    "scores": {
+      "gptzero": 0.3813,
+      "winston": 0,
+      "originality": 0.9859,
+      "zerogpt": 0.933,
+      "grammarly": 0.69,
+      "quillbot": 0.7816,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "smarthumanizer-s20",
+    "humanizer": "smarthumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.05,
+      "originality": 1,
+      "zerogpt": 0.647,
+      "grammarly": 1,
+      "quillbot": 0.3074,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "smarthumanizer-s21",
+    "humanizer": "smarthumanizer",
+    "scores": {
+      "gptzero": 0.1705,
+      "winston": 0.96,
+      "originality": 0.998,
+      "zerogpt": 0.858,
+      "grammarly": 0.92,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "smarthumanizer-s22",
+    "humanizer": "smarthumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.92,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "smarthumanizer-s23",
+    "humanizer": "smarthumanizer",
+    "scores": {
+      "gptzero": 0.974,
+      "winston": 1,
+      "originality": 0.9999,
+      "zerogpt": 0.915,
+      "grammarly": 0.92,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "smarthumanizer-s24",
+    "humanizer": "smarthumanizer",
+    "scores": {
+      "gptzero": 0.9959,
+      "winston": 0.86,
+      "originality": 0.9818,
+      "zerogpt": 0.834,
+      "grammarly": 0.88,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "smarthumanizer-s25",
+    "humanizer": "smarthumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.95,
+      "originality": 0.9999,
+      "zerogpt": 0.094,
+      "grammarly": 0.45,
+      "quillbot": 0.2968,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "smarthumanizer-s26",
+    "humanizer": "smarthumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.99,
+      "originality": 1,
+      "zerogpt": 0.605,
+      "grammarly": 0.73,
+      "quillbot": 0.9213,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "smarthumanizer-s27",
+    "humanizer": "smarthumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.34,
+      "originality": 1,
+      "zerogpt": 0.887,
+      "grammarly": 0.88,
+      "quillbot": 0.5407,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "smarthumanizer-s28",
+    "humanizer": "smarthumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0.23,
+      "originality": 0.0442,
+      "zerogpt": 0.588,
+      "grammarly": 0.53,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "smarthumanizer-s29",
+    "humanizer": "smarthumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.9201,
+      "zerogpt": 0.54,
+      "grammarly": 0.37,
+      "quillbot": 0.5492,
+      "copyleaks": 0
+    }
+  },
+  {
+    "test_id": "smarthumanizer-s30",
+    "humanizer": "smarthumanizer",
+    "scores": {
+      "gptzero": 0.9305,
+      "winston": 0.99,
+      "originality": 1,
+      "zerogpt": 0.872,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "smarthumanizer-s31",
+    "humanizer": "smarthumanizer",
+    "scores": {
+      "gptzero": 0,
+      "winston": 0,
+      "originality": 0.1364,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "smarthumanizer-s32",
+    "humanizer": "smarthumanizer",
+    "scores": {
+      "gptzero": 0.9924,
+      "winston": 0.99,
+      "originality": 1,
+      "zerogpt": 1,
+      "grammarly": 1,
+      "quillbot": 1,
+      "copyleaks": 1
+    }
+  },
+  {
+    "test_id": "smarthumanizer-s33",
+    "humanizer": "smarthumanizer",
+    "scores": {
+      "gptzero": 0.9821,
+      "winston": 0.66,
+      "originality": 0.9988,
+      "zerogpt": 1,
+      "grammarly": 0.75,
+      "quillbot": 0.9504,
+      "copyleaks": 1
+    }
+  }
+]

@@ -1,0 +1,161 @@
+{
+  "cycle_id": "2026-10",
+  "bundle_sha256": "db79860f0cc29401ae1a59b88a9a9bde25498b27c21a8df4c2328c8e58a67b6e",
+  "files": [
+    {
+      "path": "banks.json",
+      "sha256": "541d98f75119030b7e78fc2ffcc8712ee8a069a712869a6645094d7706225668",
+      "bytes": 4193
+    },
+    {
+      "path": "commit.json",
+      "sha256": "2897da29c174d6efe832ad34e4674e2df4533d121d3deb643e1b7ef8d7815c58",
+      "bytes": 996
+    },
+    {
+      "path": "data/aihumanize.jsonl",
+      "sha256": "eafee32e4f584aebf73d9f4eb78b5a5a96a2b62093975d2148a44addd5da052f",
+      "bytes": 133248
+    },
+    {
+      "path": "data/cleverhumanizer.jsonl",
+      "sha256": "81ba614b7470f593557567effa49f53ff172ddebb1fc2f896135f5889525e22c",
+      "bytes": 143998
+    },
+    {
+      "path": "data/copyleaks.jsonl",
+      "sha256": "884e7d0a8437def859024b83cc9a23e411326d440fed5356e201d0829cf58501",
+      "bytes": 741155
+    },
+    {
+      "path": "data/gptinf.jsonl",
+      "sha256": "bd9a1b8b403e7c8503b791e8c359426243cd1d245c16c4a4e6b3f6b25848e68a",
+      "bytes": 131688
+    },
+    {
+      "path": "data/gptzero.jsonl",
+      "sha256": "dc0e533a45453263faea848358ecc6bfb542390d052632f55eb1f133ac4d15ce",
+      "bytes": 741869
+    },
+    {
+      "path": "data/grammarly.jsonl",
+      "sha256": "df117fa4cc2ab109c54797adb8dab8fa05fcb75fa6a7cd58e7e90a764a98da8c",
+      "bytes": 741623
+    },
+    {
+      "path": "data/hix-bypass.jsonl",
+      "sha256": "f00254eb8ba705b5595923848509d52bf83b3f7ca98696b34e9ad24d3c4f5537",
+      "bytes": 143580
+    },
+    {
+      "path": "data/originality.jsonl",
+      "sha256": "d2a592750c57cd84cc756d126ba7a87b92c49d1c48553736a277b9aa7dee9314",
+      "bytes": 742138
+    },
+    {
+      "path": "data/quillbot.jsonl",
+      "sha256": "ad50379e6237e04ee82d87f16e3430df3509427fbfd1ae064c98157068a79d65",
+      "bytes": 741918
+    },
+    {
+      "path": "data/rehumanize.jsonl",
+      "sha256": "0d217330383ca7a10d7e717052a1cb67727659d132298f292a7a93809d794bd5",
+      "bytes": 138232
+    },
+    {
+      "path": "data/smarthumanizer.jsonl",
+      "sha256": "87e9dcb0afa1d5e5757747d5540d72b6587cc2eb57d57f3f06bccc4a0f3f7bd4",
+      "bytes": 146683
+    },
+    {
+      "path": "data/stealthgpt.jsonl",
+      "sha256": "f29ec8195c5de392d41763f4837e1655c26bb5ceb3ab52782824b205aa1ef937",
+      "bytes": 131918
+    },
+    {
+      "path": "data/superhumanizer.jsonl",
+      "sha256": "3f3f2b9f02696b86301cc4056c2589fc2d980cddff5663d2d8a227ae592e95ef",
+      "bytes": 139504
+    },
+    {
+      "path": "data/undetectable-ai.jsonl",
+      "sha256": "f38747b3fff96b30153f01cdac24f720d8b910ad5d69c7aa6ebf81b54b34a25c",
+      "bytes": 158180
+    },
+    {
+      "path": "data/undetectedgpt.jsonl",
+      "sha256": "936d1e0b68ac03625efb934b4a76ff310162ad9e82b78b126456dffa1ec28a27",
+      "bytes": 138820
+    },
+    {
+      "path": "data/winston.jsonl",
+      "sha256": "76964478bf82ab4f99f45c070cd3145e7997e18d1510417301f6b65b65918d30",
+      "bytes": 741528
+    },
+    {
+      "path": "data/writehuman.jsonl",
+      "sha256": "551cbe76c13dc96cdbb74dd4145b0ea1b350ad5dc2a3fa9ac5f38d400e5f95d0",
+      "bytes": 137027
+    },
+    {
+      "path": "data/zerogpt.jsonl",
+      "sha256": "86dd63c204b22c4af113112f6a763ba161685b958e38ae0f6b77bd92f562f704",
+      "bytes": 742000
+    },
+    {
+      "path": "detector-scores.json",
+      "sha256": "133fe54872be178471370181fbb04dc87bbfe351e16c96bc3564051a05024477",
+      "bytes": 93549
+    },
+    {
+      "path": "leaderboard.json",
+      "sha256": "ef224a51e82ed8e2ffcd196d2c3b02741bb221833ffed7f316cd7a1bc655816c",
+      "bytes": 11828
+    },
+    {
+      "path": "nonce.txt",
+      "sha256": "5ee66bc528dfbcbd6b069e9288b2c0843dd783a51fbfe3d226bd1f529df62374",
+      "bytes": 65
+    },
+    {
+      "path": "prompts.json",
+      "sha256": "fdd9c713f5a3bf66b6f579d3090f2ac6d7e3c3240845f75f56b8ad32cbf87295",
+      "bytes": 8922
+    },
+    {
+      "path": "results.jsonl",
+      "sha256": "f5b69b75c63e4ac535873b15670824d03ef690da1303cef23328444d8fcc0069",
+      "bytes": 1716714
+    },
+    {
+      "path": "samples.json",
+      "sha256": "9ef4749a8d368f92de228bbb513a55c1d9766a7b9df4f7730a91811da6245a56",
+      "bytes": 73331
+    },
+    {
+      "path": "scoring.js",
+      "sha256": "c65c95e74c3d3b97f3ad1e346e45d19d30159a5147976c307579d3933f0afcfc",
+      "bytes": 8553
+    },
+    {
+      "path": "select-placeholders.js",
+      "sha256": "961def19bb379109b652d9e3abc4ec4d196708050423bbc83233d369a501ae42",
+      "bytes": 6469
+    },
+    {
+      "path": "source-models.json",
+      "sha256": "00789de7b58db31f046d6135d55c5898aedbc2c7f66168476bea862c09ecf30f",
+      "bytes": 411
+    },
+    {
+      "path": "templates.json",
+      "sha256": "f57f79b798b8f184c99636834380a18c033068c682a58d423c0f175cc4ad8c63",
+      "bytes": 1833
+    },
+    {
+      "path": "tests.json",
+      "sha256": "d408db6d2497c8fff0657435bc3225eec7b604ab8edb3ca83a1420049bea8f03",
+      "bytes": 1569016
+    }
+  ]
+}

@@ -27,6 +27,33 @@
         "discussion_board": 88.3,
         "news_article": 79.3
       }
+    },
+    {
+      "cycle": "2026-10",
+      "rank": 4,
+      "composite": 80.2,
+      "bypassRate": 0.7818,
+      "meaningPreservation": 0.8294,
+      "readability": 0.7745,
+      "consistency": 0.8427,
+      "perDetector": {
+        "gptzero": 0.2828,
+        "winston": 0.6,
+        "originality": 0.8293,
+        "zerogpt": 0.7709,
+        "grammarly": 0.8158,
+        "quillbot": 0.804,
+        "copyleaks": 0.7273
+      },
+      "perCategory": {
+        "academic_essay": 87.6,
+        "application_essay": 75.6,
+        "blog_post": 72.2,
+        "business_email": 74.5,
+        "marketing_copy": 81.4,
+        "discussion_board": 88.6,
+        "news_article": 85.4
+      }
     }
   ]
 }
