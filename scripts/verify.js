@@ -11,6 +11,7 @@ import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
 import { join, resolve } from "node:path";
 import { buildHistory, serialise } from "./history.js";
 import { buildBlock, cycleLabel, inject, latestCycle, START } from "./readme.js";
+import { checkSchemaGrowth } from "./schema.js";
 import { verifyCycle } from "./verify-cycle.js";
 
 const CYCLES = resolve(process.cwd(), "data/cycles");
@@ -60,7 +61,7 @@ async function main() {
   let awaiting = 0;
   for (const id of selected) {
     console.log(`\n\x1b[1m${label(id)}\x1b[0m  ·  data/cycles/${id}\n`);
-    const failures = await verifyCycle(join(CYCLES, id));
+    const failures = await verifyCycle(join(CYCLES, id), id);
     if (failures > 0) failed.push(id);
     if (!existsSync(join(CYCLES, id, "leaderboard.json"))) awaiting++;
   }
@@ -69,20 +70,24 @@ async function main() {
   // once here rather than inside any single cycle — and only on a full run,
   // since it cannot be judged from one cycle in isolation.
   let derivedFailed = false;
+  let schemaFailed = false;
   if (!query) {
     console.log(`\n\x1b[1mHistory\x1b[0m  ·  data/humanizers\n`);
     const historyOk = verifyHistory();
     console.log(`\n\x1b[1mREADME\x1b[0m  ·  rankings table\n`);
     const readmeOk = verifyReadme();
+    console.log(`\n\x1b[1mSchema\x1b[0m  ·  across cycles\n`);
+    schemaFailed = !verifySchema();
     derivedFailed = !historyOk || !readmeOk;
   }
 
   console.log("");
-  if (failed.length > 0 || derivedFailed) {
+  if (failed.length > 0 || derivedFailed || schemaFailed) {
     if (failed.length > 0) {
       console.log(`\x1b[31mFAILED\x1b[0m — ${failed.length} of ${selected.length} cycle(s) did not verify: ${failed.join(", ")}`);
     }
     if (derivedFailed) console.log(`\x1b[31mFAILED\x1b[0m — derived files do not match the published cycles.`);
+    if (schemaFailed) console.log(`\x1b[31mFAILED\x1b[0m — a later cycle dropped something an earlier one published.`);
     console.log("");
     process.exit(1);
   }
@@ -185,6 +190,50 @@ function verifyReadme() {
       ? `  \x1b[32m✓\x1b[0m rankings table matches ${cycleLabel(latest.id)}`
       : `  \x1b[32m✓\x1b[0m no cycles published, and the table correctly says so`,
   );
+  return true;
+}
+
+/**
+ * Check 9: the published schema only grows. Every file, and every field on
+ * every row, that one cycle published must still be published by each later
+ * cycle — so a field a consumer has seen is never quietly dropped.
+ *
+ * @returns {boolean} true if no cycle dropped anything an earlier one had
+ */
+function verifySchema() {
+  // Each cycle needs a commitment of its own. Two cycles sharing one would
+  // mean the second's prompts were known before it was "committed".
+  const seen = new Map();
+  const reused = [];
+  for (const id of readdirSync(CYCLES).filter((n) => statSync(join(CYCLES, n)).isDirectory()).sort()) {
+    const path = join(CYCLES, id, "commit.json");
+    if (!existsSync(path)) continue;
+    let hash = null;
+    try {
+      hash = JSON.parse(readFileSync(path, "utf8")).nonce_sha256;
+    } catch {
+      continue; // unreadable commit.json is reported by that cycle's own checks
+    }
+    if (seen.has(hash)) reused.push(`${id} reuses the commitment of ${seen.get(hash)}`);
+    else seen.set(hash, id);
+  }
+  if (reused.length > 0) {
+    console.log(`  \x1b[31m✗\x1b[0m a commitment is used by more than one cycle:`);
+    for (const r of reused) console.log(`      ${r}`);
+    return false;
+  }
+
+  const { cycles, problems } = checkSchemaGrowth(CYCLES);
+  if (cycles === 0) {
+    console.log("  \x1b[33m-\x1b[0m no cycles published — skipping");
+    return true;
+  }
+  if (problems.length > 0) {
+    console.log(`  \x1b[31m✗\x1b[0m a later cycle dropped published files or fields:`);
+    for (const p of problems.slice(0, 8)) console.log(`      ${p}`);
+    return false;
+  }
+  console.log(`  \x1b[32m✓\x1b[0m no file or field dropped across ${cycles} cycle(s)`);
   return true;
 }
 

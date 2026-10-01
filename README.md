@@ -72,12 +72,13 @@ September 2026  ·  data/cycles/2026-09
   ✓ nonce matches the commitment published at cycle start (35c1ba911e66a88c…)
   ✓ all 33 prompts re-derive from the nonce
   ✓ every sample traces to a committed prompt, and every test to a published sample
-  ✓ leaderboard recomputes for all 11 tools, every field (tolerance 0.0001)
+  ✓ leaderboard recomputes for all 11 tools, every field and the ranking order (tolerance 0.0001)
   ✓ 0 tool(s) excluded for unavailability, none double-counted
   ✓ every humanizer faced every sample (11 × 33 = 363 tests)
   ✓ all 363 test ids are unique
   ✓ every test scored by all 7 detectors
-  ✓ all 30 files match manifest.json
+  ✓ results.jsonl and 18 per-tool files match the scored data
+  ✓ all 30 files match manifest.json, and its root hash recomputes (554c7e37467002dd…)
 
 History  ·  data/humanizers
 
@@ -86,6 +87,10 @@ History  ·  data/humanizers
 README  ·  rankings table
 
   ✓ rankings table matches September 2026
+
+Schema  ·  across cycles
+
+  ✓ no file or field dropped across 1 cycle(s)
 ```
 
 Verify a single cycle with `npm run verify -- "September 2026"` (or
@@ -93,23 +98,26 @@ Verify a single cycle with `npm run verify -- "September 2026"` (or
 
 ## What gets checked
 
-Six checks per cycle, tracing one chain — **nonce → prompts → samples → tests →
-scores → leaderboard** — with each check tying one link to the next. Two more
-run across the whole repository, covering the files derived from those cycles.
+Seven checks per cycle, tracing one chain — **nonce → prompts → samples → tests →
+scores → leaderboard** — with each check tying one link to the next. Three more
+run across the whole repository, covering the files derived from those cycles
+and the schema they share.
 
 | Check | Question it answers |
 | --- | --- |
-| **Commitment** | Were the prompts fixed before the run? `sha256(nonce.txt)` must equal the `nonce_sha256` we published at cycle start, before any tool was called. |
-| **Selection** | Do those prompts follow from that nonce? Re-running the frozen selection algorithm must reproduce `prompts.json` exactly. |
-| **Provenance** | Were those prompts the ones actually used? Every sample must have been written from a committed prompt, and every test must have fed a tool the published sample verbatim. |
-| **Scoring** | Do the published numbers follow from the published data? Re-running the frozen scorer over `tests.json` and `detector-scores.json` must reproduce every field of `leaderboard.json` within 1e-4 — breakdowns and penalties included, not just the headline scores. |
-| **Completeness** | Is anything missing? Every humanizer must have faced every sample, every test id must be unique, and every test must carry a score from every detector. |
-| **Integrity** | Has anything changed since publication? Every file must match its SHA-256 in `manifest.json`, which is itself covered by a single root hash. |
+| **Commitment** | Were the prompts fixed before the run? `sha256(nonce.txt)` must equal the `nonce_sha256` we published at cycle start, before any tool was called. Where a cycle rotates the model that writes its source texts, the roster in `source-models.json` must be the one published with that commitment. |
+| **Selection** | Do those prompts follow from that nonce? Re-running the frozen selection algorithm must reproduce `prompts.json` exactly: each prompt, its category and template, and the model assigned to write it. |
+| **Provenance** | Were those prompts the ones actually used? There must be exactly one sample per committed prompt, written from that prompt by the model assigned to it, and every test must have fed a tool the published sample verbatim under the sample's own category. |
+| **Scoring** | Do the published numbers follow from the published data? Re-running the frozen scorer over `tests.json` and `detector-scores.json` must reproduce every field of `leaderboard.json` within 1e-4 — breakdowns and penalties included, not just the headline scores — along with the ranking order and the list of excluded tools. |
+| **Completeness** | Is anything missing? Every humanizer must have faced every sample, every test id must be unique, and every test must carry an outcome from every detector: a score, `null` where the detector has no verdict for that text, or `"error"` where no verdict could be obtained. Errors are counted in the output, and a test with no humanizer output may only carry errors. |
+| **Derived files** | Do the files people download say the same thing? `results.jsonl` and the per-tool files under `data/` must match `tests.json` and `detector-scores.json` row for row. |
+| **Integrity** | Has anything changed since publication? Every file must match its SHA-256 in `manifest.json`, and the manifest's single root hash must recompute from those entries. A published cycle without a manifest fails. |
 | **History** | Do the cross-cycle trends follow from the cycles? Regenerating `data/humanizers/` from every published leaderboard must reproduce the committed files byte for byte. |
 | **README** | Does the table above match the data? Regenerating it from the latest cycle must reproduce what is committed here. |
+| **Schema** | Has anything been dropped? Every file, and every field on every row, that one cycle published must still be published by each later cycle. The schema only grows. No two cycles may share a commitment. |
 
-The last three exist because a file can be internally consistent while the
-chain around it is broken:
+Provenance, completeness and the every-field scoring comparison exist because a
+file can be internally consistent while the chain around it is broken:
 
 - Commit the nonce honestly, publish correct prompts, then write the corpus
   from *different, easier* prompts. Commitment and selection both pass, and the
