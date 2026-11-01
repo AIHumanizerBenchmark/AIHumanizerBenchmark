@@ -24,6 +24,30 @@ never a quiet edit.
 
 ---
 
+## November 2026
+
+- `methodology_version` **1.1.0 → 1.2.0**
+- `scoring_version` **1.0.1** (unchanged)
+- `prompt_set_version` **1.0.0** (unchanged)
+
+**Methodology 1.2.0.**
+
+- The detector panel changed: Pangram joined and Winston AI left. The panel
+  is GPTZero, Originality.ai, Copyleaks, Pangram, ZeroGPT, QuillBot and
+  Grammarly. Earlier cycles keep the panel they were scored with.
+- Originality.ai verdicts come from its 5.0 model.
+- Detector verdicts are recorded to the nearest percent, except ZeroGPT's.
+- Rephrasy joined the humanizer roster. WriteHuman and AIHumanize could not
+  be exercised this cycle, their endpoints having changed, and are not in it.
+  The roster is ten tools.
+
+**Data.** The grouped files stand on their own: each `data/<tool>.jsonl` row
+carries `cycle_id`, `settings_used`, `plan_tier_used` and `detectors`, and
+each `data/<detector>.jsonl` row carries `cycle_id` and `detector`.
+`leaderboard.json` names the readability and embedding models as
+`readability_model` and `embedding_model`. GPTinf's `settings_used` no longer
+includes the vendor's model preset name.
+
 ## October 2026
 
 - `methodology_version` **1.0.0 → 1.1.0**

@@ -17,21 +17,20 @@ its own published data on every push. The same data ships as a
 under the [AI Humanizer Benchmark organization](https://huggingface.co/ai-humanizer-benchmark).
 
 <!-- RANKINGS:START -->
-## AI humanizer rankings: October 2026
+## AI humanizer rankings: November 2026
 
 | # | AI humanizer | Score / 100 | Bypass | Meaning | Readability | Consistency | Penalty |
 |--:|--------------|:-----------:|:------:|:-------:|:-----------:|:-----------:|:-------:|
-| 1 | [UndetectedGPT](https://aihumanizerbenchmark.com/humanizers/undetectedgpt) | 88.12 | 96% | 77% | 84% | 97% | 0 |
-| 2 | [HIX Bypass](https://aihumanizerbenchmark.com/humanizers/hix-bypass) | 83.87 | 93% | 78% | 64% | 94% | 0 |
-| 3 | [GPTinf](https://aihumanizerbenchmark.com/humanizers/gptinf) | 80.74 | 89% | 68% | 78% | 92% | 0 |
-| 4 | [SmartHumanizer](https://aihumanizerbenchmark.com/humanizers/smarthumanizer) | 80.20 | 78% | 83% | 77% | 84% | 0 |
-| 5 | [AI Humanize](https://aihumanizerbenchmark.com/humanizers/aihumanize) | 78.33 | 90% | 66% | 72% | 89% | -1.0 |
-| 6 | [SuperHumanizer](https://aihumanizerbenchmark.com/humanizers/superhumanizer) | 78.23 | 84% | 75% | 71% | 86% | -1.0 |
-| 7 | [WriteHuman](https://aihumanizerbenchmark.com/humanizers/writehuman) | 75.06 | 98% | 53% | 71% | 96% | -4.0 |
-| 8 | [Clever AI Humanizer](https://aihumanizerbenchmark.com/humanizers/cleverhumanizer) | 68.06 | 86% | 66% | 77% | 77% | -9.0 |
-| 9 | [StealthGPT](https://aihumanizerbenchmark.com/humanizers/stealthgpt) | 64.52 | 63% | 68% | 81% | 76% | -4.0 |
-| 10 | [ReHumanize](https://aihumanizerbenchmark.com/humanizers/rehumanize) | 41.60 | 2% | 69% | 83% | 97% | -4.0 |
-| 11 | [Undetectable AI](https://aihumanizerbenchmark.com/humanizers/undetectable-ai) | 33.60 | 2% | 73% | 73% | 98% | -12.0 |
+| 1 | [Clever AI Humanizer](https://aihumanizerbenchmark.com/humanizers/cleverhumanizer) | 79.33 | 90% | 64% | 79% | 86% | 0 |
+| 2 | [UndetectedGPT](https://aihumanizerbenchmark.com/humanizers/undetectedgpt) | 76.03 | 71% | 79% | 84% | 77% | 0 |
+| 3 | [Rephrasy](https://aihumanizerbenchmark.com/humanizers/rephrasy) | 72.97 | 80% | 70% | 75% | 81% | -3.0 |
+| 4 | [GPTinf](https://aihumanizerbenchmark.com/humanizers/gptinf) | 72.05 | 70% | 72% | 78% | 73% | 0 |
+| 5 | [SuperHumanizer](https://aihumanizerbenchmark.com/humanizers/superhumanizer) | 69.41 | 55% | 79% | 78% | 84% | 0 |
+| 6 | [SmartHumanizer](https://aihumanizerbenchmark.com/humanizers/smarthumanizer) | 67.41 | 49% | 83% | 82% | 75% | 0 |
+| 7 | [HIX Bypass](https://aihumanizerbenchmark.com/humanizers/hix-bypass) | 60.04 | 56% | 81% | 81% | 76% | -10.0 |
+| 8 | [StealthGPT](https://aihumanizerbenchmark.com/humanizers/stealthgpt) | 52.87 | 38% | 65% | 82% | 79% | -5.0 |
+| 9 | [ReHumanize](https://aihumanizerbenchmark.com/humanizers/rehumanize) | 44.65 | 3% | 70% | 82% | 98% | -2.0 |
+| 10 | [Undetectable AI](https://aihumanizerbenchmark.com/humanizers/undetectable-ai) | 33.71 | 3% | 73% | 77% | 96% | -13.0 |
 
 _Composite out of 100, weighting detector bypass 42%, meaning preservation 32%, readability 16%, and consistency across writing categories 10%; the four columns after the score are those sub-scores. Penalty is the total deducted for quality failures, already reflected in the score. Every tool ran automatically on its default settings over the same 33 texts, each scored by 7 AI detectors. Every number here is reproducible from the data in this repository — run `npm run verify`. Full per-detector breakdowns at [aihumanizerbenchmark.com/leaderboard](https://aihumanizerbenchmark.com/leaderboard)._
 <!-- RANKINGS:END -->
@@ -69,31 +68,31 @@ Node's standard library — a verification tool whose dependencies you have to
 trust doesn't verify much.
 
 ```
-October 2026  ·  data/cycles/2026-10
+November 2026  ·  data/cycles/2026-11
 
-  ✓ nonce matches the commitment published at cycle start (8642a9e8a6f97363…)
+  ✓ nonce matches the commitment published at cycle start (f64c21fd75aa4623…)
   ✓ source-model roster matches the one committed at cycle start (6 models)
   ✓ all 33 prompts and their model assignments re-derive from the nonce
   ✓ every sample traces to a committed prompt, and every test to a published sample
-  ✓ leaderboard recomputes for all 11 tools, every field and the ranking order (tolerance 0.0001)
+  ✓ leaderboard recomputes for all 10 tools, every field and the ranking order (tolerance 0.0001)
   ✓ 0 tool(s) excluded for unavailability, none double-counted
-  ✓ every humanizer faced every sample (11 × 33 = 363 tests)
-  ✓ all 363 test ids are unique
+  ✓ every humanizer faced every sample (10 × 33 = 330 tests)
+  ✓ all 330 test ids are unique
   ✓ every test scored by all 7 detectors
-  ✓ results.jsonl and 18 per-tool files match the scored data
-  ✓ all 31 files match manifest.json, and its root hash recomputes (db79860f0cc29401…)
+  ✓ results.jsonl and 17 per-tool files match the scored data
+  ✓ all 30 files match manifest.json, and its root hash recomputes (bf4427121902b52a…)
 
 History  ·  data/humanizers
 
-  ✓ 11 humanizer histories re-derive from 2 cycle(s)
+  ✓ 12 humanizer histories re-derive from 3 cycle(s)
 
 README  ·  rankings table
 
-  ✓ rankings table matches October 2026
+  ✓ rankings table matches November 2026
 
 Schema  ·  across cycles
 
-  ✓ no file or field dropped across 2 cycle(s)
+  ✓ no file or field dropped across 3 cycle(s)
 ```
 
 Verify a single cycle with `npm run verify -- "September 2026"` (or

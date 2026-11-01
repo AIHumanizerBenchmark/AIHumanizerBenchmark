@@ -1,0 +1,421 @@
+{
+  "cycle_id": "2026-11",
+  "run_date": "2026-11-01T21:02:21.250Z",
+  "methodology_version": "1.2.0",
+  "scoring_version": "1.0.1",
+  "prompt_set_version": "1.0.0",
+  "readability_model": "claude-haiku-4-5-20251001",
+  "embedding_model": "text-embedding-3-large",
+  "detectors": [
+    "gptzero",
+    "originality",
+    "copyleaks",
+    "pangram",
+    "zerogpt",
+    "quillbot",
+    "grammarly"
+  ],
+  "results": [
+    {
+      "slug": "cleverhumanizer",
+      "unavailable": false,
+      "attempts": {
+        "total": 33,
+        "errors": 0
+      },
+      "composite": 79.33,
+      "bypassRate": 0.8957,
+      "meaningPreservation": 0.6368,
+      "readability": 0.7948,
+      "consistency": 0.862,
+      "penalties": [],
+      "perDetector": {
+        "gptzero": 0.8309,
+        "originality": 0.3109,
+        "copyleaks": 0.8788,
+        "pangram": 0.0876,
+        "zerogpt": 0.8106,
+        "quillbot": 0.9039,
+        "grammarly": 0.9685
+      },
+      "perCategory": {
+        "academic_essay": 81,
+        "application_essay": 68.1,
+        "blog_post": 81.2,
+        "business_email": 78.6,
+        "marketing_copy": 84.8,
+        "discussion_board": 79.8,
+        "news_article": 84
+      },
+      "testsCompleted": 33,
+      "settings_used": "style=casual,type_generation=humanize",
+      "plan_tier_used": "default"
+    },
+    {
+      "slug": "undetectedgpt",
+      "unavailable": false,
+      "attempts": {
+        "total": 33,
+        "errors": 0
+      },
+      "composite": 76.03,
+      "bypassRate": 0.7069,
+      "meaningPreservation": 0.7902,
+      "readability": 0.8373,
+      "consistency": 0.7654,
+      "penalties": [],
+      "perDetector": {
+        "gptzero": 0.6121,
+        "originality": 0.0773,
+        "copyleaks": 0.7576,
+        "pangram": 0.0618,
+        "zerogpt": 0.7133,
+        "quillbot": 0.9233,
+        "grammarly": 0.9306
+      },
+      "perCategory": {
+        "academic_essay": 82.2,
+        "application_essay": 67.7,
+        "blog_post": 69.3,
+        "business_email": 60,
+        "marketing_copy": 83.5,
+        "discussion_board": 83.5,
+        "news_article": 87.4
+      },
+      "testsCompleted": 33,
+      "settings_used": "ultra_stealth=off, model=ghost-2",
+      "plan_tier_used": "default"
+    },
+    {
+      "slug": "rephrasy",
+      "unavailable": false,
+      "attempts": {
+        "total": 33,
+        "errors": 0
+      },
+      "composite": 72.97,
+      "bypassRate": 0.7996,
+      "meaningPreservation": 0.696,
+      "readability": 0.7527,
+      "consistency": 0.8073,
+      "penalties": [
+        {
+          "code": "severe_meaning_drift",
+          "occurrences": 1,
+          "delta": 1
+        },
+        {
+          "code": "length_inflation",
+          "occurrences": 2,
+          "delta": 2
+        }
+      ],
+      "perDetector": {
+        "gptzero": 0.8258,
+        "originality": 0.2806,
+        "copyleaks": 0.8788,
+        "pangram": 0.1718,
+        "zerogpt": 0.7553,
+        "quillbot": 0.8394,
+        "grammarly": 0.8645
+      },
+      "perCategory": {
+        "academic_essay": 78.4,
+        "application_essay": 61.4,
+        "blog_post": 79,
+        "business_email": 70.2,
+        "marketing_copy": 82.3,
+        "discussion_board": 84.7,
+        "news_article": 78.7
+      },
+      "testsCompleted": 33,
+      "settings_used": "model=v4,words=true",
+      "plan_tier_used": "default"
+    },
+    {
+      "slug": "gptinf",
+      "unavailable": false,
+      "attempts": {
+        "total": 33,
+        "errors": 0
+      },
+      "composite": 72.05,
+      "bypassRate": 0.6984,
+      "meaningPreservation": 0.715,
+      "readability": 0.7839,
+      "consistency": 0.7299,
+      "penalties": [],
+      "perDetector": {
+        "gptzero": 0.5412,
+        "originality": 0.0624,
+        "copyleaks": 0.6667,
+        "pangram": 0,
+        "zerogpt": 0.8105,
+        "quillbot": 0.8545,
+        "grammarly": 0.8748
+      },
+      "perCategory": {
+        "academic_essay": 83.4,
+        "application_essay": 63.6,
+        "blog_post": 66.2,
+        "business_email": 54.6,
+        "marketing_copy": 73.2,
+        "discussion_board": 82.7,
+        "news_article": 82.5
+      },
+      "testsCompleted": 33,
+      "settings_used": "style=standard,alg=0",
+      "plan_tier_used": "default"
+    },
+    {
+      "slug": "superhumanizer",
+      "unavailable": false,
+      "attempts": {
+        "total": 33,
+        "errors": 0
+      },
+      "composite": 69.41,
+      "bypassRate": 0.5524,
+      "meaningPreservation": 0.7894,
+      "readability": 0.7827,
+      "consistency": 0.8422,
+      "penalties": [],
+      "perDetector": {
+        "gptzero": 0.3706,
+        "originality": 0.107,
+        "copyleaks": 0.6061,
+        "pangram": 0.053,
+        "zerogpt": 0.6459,
+        "quillbot": 0.8758,
+        "grammarly": 0.8582
+      },
+      "perCategory": {
+        "academic_essay": 76,
+        "application_essay": 75.5,
+        "blog_post": 70.4,
+        "business_email": 59.2,
+        "marketing_copy": 65.6,
+        "discussion_board": 68.4,
+        "news_article": 60.9
+      },
+      "testsCompleted": 33,
+      "settings_used": "mode=transform,tone=default,preserveHeadings=true",
+      "plan_tier_used": "default"
+    },
+    {
+      "slug": "smarthumanizer",
+      "unavailable": false,
+      "attempts": {
+        "total": 33,
+        "errors": 0
+      },
+      "composite": 67.41,
+      "bypassRate": 0.487,
+      "meaningPreservation": 0.8263,
+      "readability": 0.8161,
+      "consistency": 0.7454,
+      "penalties": [],
+      "perDetector": {
+        "gptzero": 0.2485,
+        "originality": 0.043,
+        "copyleaks": 0.7576,
+        "pangram": 0,
+        "zerogpt": 0.6198,
+        "quillbot": 0.7982,
+        "grammarly": 0.7648
+      },
+      "perCategory": {
+        "academic_essay": 79.4,
+        "application_essay": 63.1,
+        "blog_post": 63.5,
+        "business_email": 50.8,
+        "marketing_copy": 61.1,
+        "discussion_board": 80.1,
+        "news_article": 76.4
+      },
+      "testsCompleted": 33,
+      "settings_used": "tone=balanced",
+      "plan_tier_used": "default"
+    },
+    {
+      "slug": "hix-bypass",
+      "unavailable": false,
+      "attempts": {
+        "total": 33,
+        "errors": 0
+      },
+      "composite": 60.04,
+      "bypassRate": 0.5603,
+      "meaningPreservation": 0.8123,
+      "readability": 0.81,
+      "consistency": 0.755,
+      "penalties": [
+        {
+          "code": "length_inflation",
+          "occurrences": 19,
+          "delta": 10
+        }
+      ],
+      "perDetector": {
+        "gptzero": 0.4424,
+        "originality": 0.0464,
+        "copyleaks": 0.6718,
+        "pangram": 0,
+        "zerogpt": 0.7488,
+        "quillbot": 0.7918,
+        "grammarly": 0.8661
+      },
+      "perCategory": {
+        "academic_essay": 67.6,
+        "application_essay": 70.9,
+        "blog_post": 66.6,
+        "business_email": 51,
+        "marketing_copy": 76.4,
+        "discussion_board": 83.3,
+        "news_article": 73.2
+      },
+      "testsCompleted": 33,
+      "settings_used": "modelType=latest,source=web-tools",
+      "plan_tier_used": "default"
+    },
+    {
+      "slug": "stealthgpt",
+      "unavailable": false,
+      "attempts": {
+        "total": 33,
+        "errors": 0
+      },
+      "composite": 52.87,
+      "bypassRate": 0.382,
+      "meaningPreservation": 0.6511,
+      "readability": 0.8155,
+      "consistency": 0.7944,
+      "penalties": [
+        {
+          "code": "severe_meaning_drift",
+          "occurrences": 3,
+          "delta": 3
+        },
+        {
+          "code": "length_deflation",
+          "occurrences": 2,
+          "delta": 2
+        }
+      ],
+      "perDetector": {
+        "gptzero": 0.3867,
+        "originality": 0.0909,
+        "copyleaks": 0.3939,
+        "pangram": 0.1685,
+        "zerogpt": 0.5269,
+        "quillbot": 0.56,
+        "grammarly": 0.6512
+      },
+      "perCategory": {
+        "academic_essay": 69,
+        "application_essay": 46.8,
+        "blog_post": 56.1,
+        "business_email": 54.3,
+        "marketing_copy": 60.2,
+        "discussion_board": 50.3,
+        "news_article": 67.9
+      },
+      "testsCompleted": 33,
+      "settings_used": "tone=College,mode=Medium,model=heavy,qualityMode=quality,writingMode=essay",
+      "plan_tier_used": "default"
+    },
+    {
+      "slug": "rehumanize",
+      "unavailable": false,
+      "attempts": {
+        "total": 33,
+        "errors": 0
+      },
+      "composite": 44.65,
+      "bypassRate": 0.033,
+      "meaningPreservation": 0.6978,
+      "readability": 0.8221,
+      "consistency": 0.978,
+      "penalties": [
+        {
+          "code": "severe_meaning_drift",
+          "occurrences": 1,
+          "delta": 1
+        },
+        {
+          "code": "length_inflation",
+          "occurrences": 1,
+          "delta": 1
+        }
+      ],
+      "perDetector": {
+        "gptzero": 0.01,
+        "originality": 0.0433,
+        "copyleaks": 0,
+        "pangram": 0,
+        "zerogpt": 0.3368,
+        "quillbot": 0.2715,
+        "grammarly": 0.5882
+      },
+      "perCategory": {
+        "academic_essay": 43.6,
+        "application_essay": 47.9,
+        "blog_post": 46.2,
+        "business_email": 50.5,
+        "marketing_copy": 46.6,
+        "discussion_board": 49.1,
+        "news_article": 44.9
+      },
+      "testsCompleted": 33,
+      "settings_used": "length=standard,tone=normal,purpose=general_writing,model=basic1",
+      "plan_tier_used": "default"
+    },
+    {
+      "slug": "undetectable-ai",
+      "unavailable": false,
+      "attempts": {
+        "total": 33,
+        "errors": 0
+      },
+      "composite": 33.71,
+      "bypassRate": 0.0348,
+      "meaningPreservation": 0.7328,
+      "readability": 0.7652,
+      "consistency": 0.9557,
+      "penalties": [
+        {
+          "code": "severe_meaning_drift",
+          "occurrences": 3,
+          "delta": 3
+        },
+        {
+          "code": "length_inflation",
+          "occurrences": 29,
+          "delta": 10
+        }
+      ],
+      "perDetector": {
+        "gptzero": 0.0297,
+        "originality": 0.0364,
+        "copyleaks": 0,
+        "pangram": 0,
+        "zerogpt": 0.4652,
+        "quillbot": 0.1267,
+        "grammarly": 0.2712
+      },
+      "perCategory": {
+        "academic_essay": 39.3,
+        "application_essay": 45.4,
+        "blog_post": 52.7,
+        "business_email": 49.8,
+        "marketing_copy": 51,
+        "discussion_board": 41,
+        "news_article": 46.3
+      },
+      "testsCompleted": 33,
+      "settings_used": "readability=University,purpose=Essay,strength=Balanced",
+      "plan_tier_used": "default"
+    }
+  ],
+  "excluded": []
+}

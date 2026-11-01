@@ -1,0 +1,233 @@
+[
+  {
+    "sample_id": "s01",
+    "template_slug": "argumentative_essay",
+    "category": "academic_essay",
+    "prompt": "Write an argumentative essay arguing that the repair-and-refurbish electronics movement. Try to aim for around 300 words.",
+    "source_model": "gpt-5.6-terra"
+  },
+  {
+    "sample_id": "s02",
+    "template_slug": "lit_review",
+    "category": "academic_essay",
+    "prompt": "Write a literature review introduction on community-supported fisheries. Try to aim for around 300 words.",
+    "source_model": "claude-sonnet-5"
+  },
+  {
+    "sample_id": "s03",
+    "template_slug": "cover_letter",
+    "category": "application_essay",
+    "prompt": "Write a cover letter for a high school chemistry teacher position. Try to aim for around 300 words.",
+    "source_model": "gemini-3.5-flash"
+  },
+  {
+    "sample_id": "s04",
+    "template_slug": "personal_statement",
+    "category": "application_essay",
+    "prompt": "Write a personal statement explaining why I want to study social psychology. Try to aim for around 300 words.",
+    "source_model": "gpt-5.6-luna"
+  },
+  {
+    "sample_id": "s05",
+    "template_slug": "howto_blog",
+    "category": "blog_post",
+    "prompt": "Write a guide on how to repaint a kitchen over a long weekend. Try to aim for around 300 words.",
+    "source_model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "sample_id": "s06",
+    "template_slug": "listicle_blog",
+    "category": "blog_post",
+    "prompt": "Write a blog post titled '10 Tips for building a focused evening wind-down routine' in a casual tone. Try to aim for around 300 words.",
+    "source_model": "gemini-2.5-flash"
+  },
+  {
+    "sample_id": "s07",
+    "template_slug": "business_email",
+    "category": "business_email",
+    "prompt": "Write a 250-word email to my team announcing merging our two project trackers into a single tool.",
+    "source_model": "gpt-5.6-terra"
+  },
+  {
+    "sample_id": "s08",
+    "template_slug": "landing_copy",
+    "category": "marketing_copy",
+    "prompt": "Write 300 words of landing page copy for a SaaS product that does training for your first sprint triathlon.",
+    "source_model": "claude-sonnet-5"
+  },
+  {
+    "sample_id": "s09",
+    "template_slug": "product_desc",
+    "category": "marketing_copy",
+    "prompt": "Write a 200-word product description for an entry-level digital piano for apartments.",
+    "source_model": "gemini-3.5-flash"
+  },
+  {
+    "sample_id": "s10",
+    "template_slug": "discussion_post",
+    "category": "discussion_board",
+    "prompt": "Write a 250-word response to this prompt: Should cities prioritize bike lanes over street parking?.",
+    "source_model": "gpt-5.6-luna"
+  },
+  {
+    "sample_id": "s11",
+    "template_slug": "news_article",
+    "category": "news_article",
+    "prompt": "Write a news article about the role of community libraries in the digital era. Try to aim for around 300 words.",
+    "source_model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "sample_id": "s12",
+    "template_slug": "argumentative_essay",
+    "category": "academic_essay",
+    "prompt": "Write an argumentative essay arguing that hybrid learning and the future of the university lecture. Try to aim for around 300 words.",
+    "source_model": "gemini-2.5-flash"
+  },
+  {
+    "sample_id": "s13",
+    "template_slug": "lit_review",
+    "category": "academic_essay",
+    "prompt": "Write a literature review introduction on unlimited vacation policies as a retention strategy. Try to aim for around 300 words.",
+    "source_model": "gpt-5.6-terra"
+  },
+  {
+    "sample_id": "s14",
+    "template_slug": "cover_letter",
+    "category": "application_essay",
+    "prompt": "Write a cover letter for a museum education coordinator position. Try to aim for around 300 words.",
+    "source_model": "claude-sonnet-5"
+  },
+  {
+    "sample_id": "s15",
+    "template_slug": "personal_statement",
+    "category": "application_essay",
+    "prompt": "Write a personal statement explaining why I want to study environmental economics. Try to aim for around 300 words.",
+    "source_model": "gemini-3.5-flash"
+  },
+  {
+    "sample_id": "s16",
+    "template_slug": "howto_blog",
+    "category": "blog_post",
+    "prompt": "Write a guide on how to start a neighborhood book club and keep it going. Try to aim for around 300 words.",
+    "source_model": "gpt-5.6-luna"
+  },
+  {
+    "sample_id": "s17",
+    "template_slug": "listicle_blog",
+    "category": "blog_post",
+    "prompt": "Write a blog post titled '10 Tips for weekend batch-cooking strategies' in a casual tone. Try to aim for around 300 words.",
+    "source_model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "sample_id": "s18",
+    "template_slug": "business_email",
+    "category": "business_email",
+    "prompt": "Write a 250-word email to my team announcing adopting a no-internal-email rule after 6 pm.",
+    "source_model": "gemini-2.5-flash"
+  },
+  {
+    "sample_id": "s19",
+    "template_slug": "landing_copy",
+    "category": "marketing_copy",
+    "prompt": "Write 300 words of landing page copy for a SaaS product that does succulents for sunny windowsills.",
+    "source_model": "gpt-5.6-terra"
+  },
+  {
+    "sample_id": "s20",
+    "template_slug": "product_desc",
+    "category": "marketing_copy",
+    "prompt": "Write a 200-word product description for a machined-brass pocket level.",
+    "source_model": "claude-sonnet-5"
+  },
+  {
+    "sample_id": "s21",
+    "template_slug": "discussion_post",
+    "category": "discussion_board",
+    "prompt": "Write a 250-word response to this prompt: Argue for or against making financial literacy a graduation requirement..",
+    "source_model": "gemini-3.5-flash"
+  },
+  {
+    "sample_id": "s22",
+    "template_slug": "news_article",
+    "category": "news_article",
+    "prompt": "Write a news article about electric vehicle charging in older neighborhoods. Try to aim for around 300 words.",
+    "source_model": "gpt-5.6-luna"
+  },
+  {
+    "sample_id": "s23",
+    "template_slug": "argumentative_essay",
+    "category": "academic_essay",
+    "prompt": "Write an argumentative essay arguing that the effect of recommendation algorithms on consumer choice. Try to aim for around 300 words.",
+    "source_model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "sample_id": "s24",
+    "template_slug": "lit_review",
+    "category": "academic_essay",
+    "prompt": "Write a literature review introduction on the rise of newsletter writers as trusted commentators. Try to aim for around 300 words.",
+    "source_model": "gemini-2.5-flash"
+  },
+  {
+    "sample_id": "s25",
+    "template_slug": "cover_letter",
+    "category": "application_essay",
+    "prompt": "Write a cover letter for a junior UX researcher position. Try to aim for around 300 words.",
+    "source_model": "gpt-5.6-terra"
+  },
+  {
+    "sample_id": "s26",
+    "template_slug": "personal_statement",
+    "category": "application_essay",
+    "prompt": "Write a personal statement explaining why I want to study conservation ecology. Try to aim for around 300 words.",
+    "source_model": "claude-sonnet-5"
+  },
+  {
+    "sample_id": "s27",
+    "template_slug": "howto_blog",
+    "category": "blog_post",
+    "prompt": "Write a guide on how to train for a century bike ride over sixteen weeks. Try to aim for around 300 words.",
+    "source_model": "gemini-3.5-flash"
+  },
+  {
+    "sample_id": "s28",
+    "template_slug": "listicle_blog",
+    "category": "blog_post",
+    "prompt": "Write a blog post titled '10 Tips for standing desks for home offices' in a casual tone. Try to aim for around 300 words.",
+    "source_model": "gpt-5.6-luna"
+  },
+  {
+    "sample_id": "s29",
+    "template_slug": "business_email",
+    "category": "business_email",
+    "prompt": "Write a 250-word email to my team announcing launching a commuter benefit for transit and bike costs.",
+    "source_model": "claude-haiku-4-5-20251001"
+  },
+  {
+    "sample_id": "s30",
+    "template_slug": "landing_copy",
+    "category": "marketing_copy",
+    "prompt": "Write 300 words of landing page copy for a SaaS product that does choosing a beginner-friendly telescope.",
+    "source_model": "gemini-2.5-flash"
+  },
+  {
+    "sample_id": "s31",
+    "template_slug": "product_desc",
+    "category": "marketing_copy",
+    "prompt": "Write a 200-word product description for a double-walled ceramic travel mug.",
+    "source_model": "gpt-5.6-terra"
+  },
+  {
+    "sample_id": "s32",
+    "template_slug": "discussion_post",
+    "category": "discussion_board",
+    "prompt": "Write a 250-word response to this prompt: What role does mentorship play in remote apprenticeships?.",
+    "source_model": "claude-sonnet-5"
+  },
+  {
+    "sample_id": "s33",
+    "template_slug": "news_article",
+    "category": "news_article",
+    "prompt": "Write a news article about the limits of facial recognition regulation. Try to aim for around 300 words.",
+    "source_model": "gemini-3.5-flash"
+  }
+]
