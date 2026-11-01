@@ -38,8 +38,7 @@ never a quiet edit.
 - Originality.ai verdicts come from its 5.0 model.
 - Detector verdicts are recorded to the nearest percent, except ZeroGPT's.
 - Rephrasy joined the humanizer roster. WriteHuman and AIHumanize could not
-  be exercised this cycle, their endpoints having changed, and are not in it.
-  The roster is ten tools.
+  be exercised this cycle and are not in it. The roster is ten tools.
 
 **Data.** The grouped files stand on their own: each `data/<tool>.jsonl` row
 carries `cycle_id`, `settings_used`, `plan_tier_used` and `detectors`, and
