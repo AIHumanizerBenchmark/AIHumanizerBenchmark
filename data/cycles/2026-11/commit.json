@@ -1,0 +1,34 @@
+{
+  "cycle_id": "2026-11",
+  "nonce_sha256": "f64c21fd75aa4623a9563d197829878aa309ab8d8977b006124b41b6e2f82b07",
+  "nonce_bytes": 32,
+  "algorithm": "sha256(nonce_hex_string)",
+  "committed_at": "2026-11-01",
+  "source_models": [
+    {
+      "provider": "anthropic",
+      "model": "claude-haiku-4-5-20251001"
+    },
+    {
+      "provider": "anthropic",
+      "model": "claude-sonnet-5"
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-5.6-luna"
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-5.6-terra"
+    },
+    {
+      "provider": "google",
+      "model": "gemini-2.5-flash"
+    },
+    {
+      "provider": "google",
+      "model": "gemini-3.5-flash"
+    }
+  ],
+  "note": "The nonce is revealed as nonce.txt when the cycle closes. Verify with: sha256(contents of nonce.txt, trimmed) === nonce_sha256. source_models is the ordered roster of models that write the source texts; the nonce assigns prompts to it, and it is republished unchanged as source-models.json."
+}
