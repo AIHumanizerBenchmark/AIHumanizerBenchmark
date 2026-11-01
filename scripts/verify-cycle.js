@@ -530,16 +530,53 @@ export async function verifyCycle(dir, expectedId = null) {
       }
     }
 
+    // The grouped files repeat the scored rows in order. From 2026-11 each row
+    // also says which cycle it is from, and a per-tool row carries the tool's
+    // settings and its detector verdicts, a per-detector row the detector's
+    // name. Those fields are checked against the scored data where present;
+    // any other field is a row saying something the scored data does not.
+    const compareRows = (rel, lines, expected, extras) => {
+      if (!lines) return;
+      if (lines.length !== expected.length) {
+        problems.push(`${rel}: ${lines.length} rows, but the scored data has ${expected.length}`);
+        return;
+      }
+      // Every row of a file carries the same extra fields: a file is one
+      // shape, not a mix of rows with and without their verdicts.
+      const shape = (row, want) => Object.keys(row).filter((f) => !(f in want)).sort().join(",");
+      const fileShape = shape(lines[0], expected[0]);
+      lines.forEach((row, i) => {
+        const want = expected[i];
+        const wrong = [];
+        for (const f of Object.keys(want)) if (!same(row[f], want[f])) wrong.push(f);
+        for (const f of Object.keys(row)) {
+          if (f in want) continue;
+          if (!(f in extras)) wrong.push(f);
+          else if (!extras[f](want, row[f])) wrong.push(f);
+        }
+        if (shape(row, want) !== fileShape) wrong.push(`fields (${shape(row, want) || "none"} vs ${fileShape || "none"})`);
+        if (wrong.length) problems.push(`${rel} ${want.test_id}: ${wrong.join(", ")} differ from the scored data`);
+      });
+    };
+    const isCycle = (_, v) => same(v, leaderboard.cycle_id);
+
     const humanizers = [...new Set(tests.map((t) => t.humanizer))];
     const declared = leaderboard.detectors ?? [];
     for (const slug of humanizers) {
-      const lines = readLines(`data/${slug}.jsonl`);
-      if (lines && !same(lines, tests.filter((t) => t.humanizer === slug))) {
-        problems.push(`data/${slug}.jsonl: rows differ from tests.json`);
-      }
+      const ranked = rankedBySlug.get(slug);
+      compareRows(`data/${slug}.jsonl`, readLines(`data/${slug}.jsonl`), tests.filter((t) => t.humanizer === slug), {
+        cycle_id: isCycle,
+        // Settings are recorded per ranked tool; an excluded tool has none to compare.
+        settings_used: (_, v) => !ranked || same(v, ranked.settings_used),
+        plan_tier_used: (_, v) => !ranked || same(v, ranked.plan_tier_used),
+        detectors: (t, v) => {
+          const scores = scoresByKey.get(key(slug, t.test_id)) ?? {};
+          const listed = Object.fromEntries((v ?? []).map((d) => [d.name, d.human_prob]));
+          return same(listed, scores) && (v ?? []).length === Object.keys(scores).length;
+        },
+      });
     }
     for (const id of declared) {
-      const lines = readLines(`data/${id}.jsonl`);
       const expected = detectorScores
         .filter((r) => id in (r.scores ?? {}))
         .map((r) => ({
@@ -548,7 +585,10 @@ export async function verifyCycle(dir, expectedId = null) {
           input: testByKey.get(key(r.humanizer, r.test_id))?.output ?? null,
           score: r.scores[id],
         }));
-      if (lines && !same(lines, expected)) problems.push(`data/${id}.jsonl: rows differ from detector-scores.json`);
+      compareRows(`data/${id}.jsonl`, readLines(`data/${id}.jsonl`), expected, {
+        cycle_id: isCycle,
+        detector: (_, v) => same(v, id),
+      });
     }
     // A file for a tool or detector that is not in this cycle is a leftover.
     const expectedFiles = new Set([...humanizers, ...declared].map((n) => `${n}.jsonl`));

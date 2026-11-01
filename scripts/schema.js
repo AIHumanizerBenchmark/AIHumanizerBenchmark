@@ -45,6 +45,20 @@ function readJson(path) {
   }
 }
 
+/** Rows of a JSON-lines file; a line that is not JSON contributes nothing. */
+function readJsonl(path) {
+  return readFileSync(path, "utf8")
+    .split("\n")
+    .filter(Boolean)
+    .map((line) => {
+      try {
+        return JSON.parse(line);
+      } catch {
+        return null;
+      }
+    });
+}
+
 /**
  * The schema one cycle publishes: its files, and the fields guaranteed on
  * every row of each. Only top-level fields are compared — nested maps such as
@@ -78,20 +92,26 @@ export function cycleSchema(dir) {
     schema.set("leaderboard.json results", commonFields(leaderboard.results ?? []));
   }
 
-  const jsonl = join(dir, "results.jsonl");
-  if (existsSync(jsonl)) {
-    const rows = readFileSync(jsonl, "utf8")
-      .split("\n")
-      .filter(Boolean)
-      .map((line) => {
-        try {
-          return JSON.parse(line);
-        } catch {
-          return null;
-        }
-      });
-    schema.set("results.jsonl", commonFields(rows));
+  // The grouped files under data/ are one file per tool and one per detector,
+  // so their rows are compared as two groups rather than file by file: the
+  // fields every per-tool row carries, and the fields every per-detector row
+  // carries. The detector panel in leaderboard.json says which file is which.
+  const dataDir = join(dir, "data");
+  if (leaderboard && existsSync(dataDir) && statSync(dataDir).isDirectory()) {
+    const detectors = new Set(leaderboard.detectors ?? []);
+    const groups = { "data/<tool>.jsonl": [], "data/<detector>.jsonl": [] };
+    for (const name of readdirSync(dataDir)) {
+      if (!name.endsWith(".jsonl")) continue;
+      const group = detectors.has(name.slice(0, -".jsonl".length)) ? "data/<detector>.jsonl" : "data/<tool>.jsonl";
+      groups[group].push(...readJsonl(join(dataDir, name)));
+    }
+    for (const [group, rows] of Object.entries(groups)) {
+      if (rows.length) schema.set(group, commonFields(rows));
+    }
   }
+
+  const jsonl = join(dir, "results.jsonl");
+  if (existsSync(jsonl)) schema.set("results.jsonl", commonFields(readJsonl(jsonl)));
 
   return schema;
 }

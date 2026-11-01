@@ -158,8 +158,10 @@ data/cycles/<cycle>/
   detector-scores.json     per-test, per-detector scores
   leaderboard.json         the published rankings
   results.jsonl            all of the above joined, one line per test
-  data/<tool>.jsonl        the same rows grouped by humanizer
-  data/<detector>.jsonl    the same rows grouped by detector
+  data/<tool>.jsonl        the same rows grouped by humanizer; from 2026-11 each
+                           row also carries its cycle, settings and detector verdicts
+  data/<detector>.jsonl    the same rows grouped by detector; from 2026-11 each
+                           row also names its cycle and detector
   scoring.js               the scorer that produced leaderboard.json
   select-placeholders.js   the selection algorithm that produced prompts.json
   manifest.json            SHA-256 of every file above, under one root hash
